@@ -37,7 +37,7 @@ jobs:
 
       - name: Install and build
         run: |
-          pnpm install
+          pnpm install --no-frozen-lockfile
           pnpm build
 
       - name: Upload Pages artifact
