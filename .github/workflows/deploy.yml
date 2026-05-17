@@ -37,8 +37,7 @@ jobs:
 
       - name: Install and build
         run: |
-          rm -f pnpm-lock.yaml
-          pnpm install
+          pnpm install --ignore-scripts
           pnpm build
 
       - name: Upload Pages artifact
