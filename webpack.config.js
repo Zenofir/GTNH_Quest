@@ -20,9 +20,9 @@ module.exports = (env, argv) => ({
     module: {
         rules: [
             {
-                test: /\.ts$/, // 匹配所有的 .ts 文件
-                use: "ts-loader", // 使用 ts-loader 进行处理
-                exclude: /node_modules/, // 排除 node_modules 目录
+                test: /\.ts$/,
+                use: { loader: "ts-loader", options: { transpileOnly: true } },
+                exclude: /node_modules/,
             },
             {
                 test: /\.scss$/, // 匹配所有的 .scss 文件
