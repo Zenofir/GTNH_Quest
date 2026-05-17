@@ -10,6 +10,7 @@ export class QuestList {
     private static pageData: any;
     /**搜索任务列表 */
     private static questList: quest[];
+    static isInAllInOneMode: boolean = false;
     // 重置echarts
     static resetChart() {
         this.echarts?.clear();
@@ -18,6 +19,7 @@ export class QuestList {
     }
 
     static getPageData(res: { data: questData; title: string }) {
+        if (this.isInAllInOneMode || !res?.data) return;
         if (ProjectData.isPhone) {
             this.showSearchPopup(res.data.data);
         } else {

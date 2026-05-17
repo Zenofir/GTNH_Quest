@@ -329,6 +329,19 @@ export class Utils {
         return textWithUrls;
     }
 
+    static createFakeQuest(quest: any, index: string): any {
+        return {
+            name: index,
+            symbolSize: quest.symbolSize * 1.3,
+            symbol: "circle",
+            parentSymbol: quest.symbol,
+            x: quest.x,
+            y: quest.y,
+            select: { disabled: true },
+            tooltip: { show: false },
+        };
+    }
+
     /**洗牌算法 */
     static shuffle<T>(array: T[]): T[] {
         for (let i = array.length - 1; i > 0; i--) {

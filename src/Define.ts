@@ -24,6 +24,7 @@ export enum localEnum {
     selectBtnIndex = "selectBtnIndex",
     /**用户选中的语言 */
     language = "language",
+    lastTimeQuestBookVersion = "lastTimeQuestBookVersion",
 }
 
 export enum lang {

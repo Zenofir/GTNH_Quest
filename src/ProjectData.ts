@@ -26,6 +26,10 @@ export class ProjectData {
         return this.getPath(ProjectConfig.questLinePath);
     }
 
+    static getFormatSymbolKey(versionCode: string, key: string, questNumberId: string): string {
+        return `image://version/${versionCode}/quests_icons/QuestIcon/${key}/${questNumberId}`;
+    }
+
     /**获取任务数据地址 */
     static getQuestDataPath(language: lang) {
         var questDataPath = this.getPath(ProjectConfig.questDataPath);
