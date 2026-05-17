@@ -44,7 +44,6 @@ export class MainPage {
             AtlasMgr.instance.init(() => this.loadQuestLine());
             this.checkIsNeedShowInfoPopup();
             EeggMgr.showEegg();
-            this.registerServiceWorker();
         });
     }
 
@@ -303,12 +302,17 @@ export class MainPage {
                 title: ProjectData.language == lang.zh ? quest.title_zh : quest.title,
                 data: questData,
             };
-            QuestList.getPageData(data);
-            this.oldQuestData = Utils.deepClone(data);
+            try {
+                QuestList.getPageData(data);
+                this.oldQuestData = Utils.deepClone(data);
+            } catch (e) {
+                console.error("Erreur lors du chargement de la quête :", e);
+            }
             TipsMgr.hideLoading();
             this.checkHasQuestIdInParameters();
         } else {
             console.error("Données de quête incorrectes");
+            TipsMgr.hideLoading();
             TipsMgr.showTips("Données de quête incorrectes");
         }
     }
