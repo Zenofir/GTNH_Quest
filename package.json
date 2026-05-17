@@ -15,6 +15,9 @@
     "keywords": [],
     "author": "",
     "license": "ISC",
+  "pnpm": {
+    "onlyBuiltDependencies": ["@parcel/watcher", "sharp", "ttf2woff2"]
+  },
     "devDependencies": {
         "@babel/core": "^7.0.0",
         "@babel/preset-env": "^7.0.0",
