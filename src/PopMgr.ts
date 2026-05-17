@@ -12,17 +12,17 @@ export class PopMgr {
 
     static onCopyDesc = () => {
         Utils.copyH5Str(Utils.removeHTMLTags(`${this.nowTitle}\n${this.nowDesc}`));
-        TipsMgr.showTips(ProjectData.language == lang.zh ? "复制成功" : "Copy Success");
+        TipsMgr.showTips("Copié !");
     };
 
     static onCopyId = () => {
         Utils.copyH5Str(this.nowID);
-        TipsMgr.showTips(ProjectData.language == lang.zh ? "复制成功" : "Copy Success");
+        TipsMgr.showTips("Copié !");
     };
 
     static onCopyLink = () => {
         Utils.copyH5Str(ProjectData.basicUrl + "?id=" + this.nowID);
-        TipsMgr.showTips(ProjectData.language == lang.zh ? "复制成功" : "Copy Success");
+        TipsMgr.showTips("Copié !");
     };
 
     static showPopup(res: quest) {
@@ -61,9 +61,9 @@ export class PopMgr {
         $("#copyLinkBtn").on("click", this.onCopyLink);
         $("#copyLinkBtn").css("display", "block");
 
-        $("#copyBtn").text(ProjectData.language == lang.zh ? "复制任务详情" : "Copy Desc");
-        $("#copyIdBtn").text(ProjectData.language == lang.zh ? "复制任务ID" : "Copy ID");
-        $("#copyLinkBtn").text(ProjectData.language == lang.zh ? "复制任务链接" : "Copy Link");
+        $("#copyBtn").text("Copier les détails");
+        $("#copyIdBtn").text("Copier l'ID");
+        $("#copyLinkBtn").text("Copier le lien");
 
         $("btnClosePop").off("click");
         $("#btnClosePop").on("click", this.hidePopup);

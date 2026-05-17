@@ -68,8 +68,8 @@ export class AtlasMgr {
                 cb?.();
             })
             .catch((err) => {
-                console.error("图集配置加载失败", err);
-                TipsMgr.showTips("图集配置加载失败");
+                console.error("Échec du chargement de la configuration d'atlas", err);
+                TipsMgr.showTips("Échec du chargement de la configuration d'atlas");
                 cb?.();
             });
     }
@@ -152,7 +152,7 @@ export class AtlasMgr {
                     item.img.src = this.path2Base64[item.path];
                 } else {
                     item.img.src = item.path;
-                    console.warn("图集加载失败", item.path);
+                    console.warn("Échec du chargement de l'atlas", item.path);
                 }
             }
         }

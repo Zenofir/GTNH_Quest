@@ -103,7 +103,7 @@ export class MainPage {
     showProjectMsg() {
         setTimeout(() => {
             console.log(
-                `%c${ProjectConfig.projectName_zh}\n\n%c${ProjectConfig.projectDsc_zh}\n\n%c作者: ${ProjectConfig.projectAuthor}\n\n%c项目地址: ${ProjectConfig.projectUrl}`,
+                `%c${ProjectConfig.projectName_zh}\n\n%c${ProjectConfig.projectDsc_zh}\n\n%cAuteur : ${ProjectConfig.projectAuthor}\n\n%cAdresse du projet : ${ProjectConfig.projectUrl}`,
                 "color:#252525; font-size: 30px;",
                 "color:#e12885; font-size: 18px;",
                 "color:#137a7f; font-size: 20px;",
@@ -276,7 +276,7 @@ export class MainPage {
 
     initQuestList() {
         $("#search").val("");
-        $("#search").attr("placeholder", ProjectData.language == lang.zh ? "搜索任务" : "Search Quest");
+        $("#search").attr("placeholder", "Rechercher une quête");
 
         let selectBtnIndex = localStorage.getItem(localEnum.selectBtnIndex);
         let btn: JQuery<HTMLElement> | undefined;
@@ -308,8 +308,8 @@ export class MainPage {
             TipsMgr.hideLoading();
             this.checkHasQuestIdInParameters();
         } else {
-            console.error("任务数据异常");
-            TipsMgr.showTips("任务数据异常");
+            console.error("Données de quête incorrectes");
+            TipsMgr.showTips("Données de quête incorrectes");
         }
     }
 
@@ -319,8 +319,8 @@ export class MainPage {
             if (tempQuestId in this.questIdToQuest[ProjectData.language]) {
                 PopMgr.showPopup(this.questIdToQuest[ProjectData.language][tempQuestId]);
             } else {
-                console.error("任务id有误");
-                TipsMgr.showTips("任务id有误");
+                console.error("ID de quête invalide");
+                TipsMgr.showTips("ID de quête invalide");
             }
         }
     }
