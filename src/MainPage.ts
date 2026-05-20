@@ -129,10 +129,17 @@ export class MainPage {
 
     initLang() {
         const storedLang = localStorage.getItem(localEnum.language);
-        if (storedLang) {
-            ProjectData.language = storedLang === lang.zh ? lang.zh : lang.en;
+        if (storedLang && (Object.values(lang) as string[]).includes(storedLang)) {
+            ProjectData.language = storedLang as lang;
         } else {
-            ProjectData.language = navigator.language.includes("zh") ? lang.zh : lang.en;
+            const browserLang = navigator.language.toLowerCase();
+            if (browserLang.includes("zh")) {
+                ProjectData.language = lang.zh;
+            } else if (browserLang.includes("fr")) {
+                ProjectData.language = lang.fr;
+            } else {
+                ProjectData.language = lang.en;
+            }
         }
         this.initWebsitePageTitle();
     }
@@ -252,7 +259,7 @@ export class MainPage {
                     }
                 });
                 const data: any = {
-                    title: ProjectData.language === lang.zh ? quest.title_zh : quest.title,
+                    title: ProjectData.language === lang.zh ? quest.title_zh : (ProjectData.language === lang.fr ? (quest.title_fr ?? quest.title) : quest.title),
                     data: this.questAllData[ProjectData.language][quest.quest],
                 };
                 QuestList.isInAllInOneMode = false;
@@ -266,7 +273,7 @@ export class MainPage {
         const img = $("<img>", { class: "questIcon" });
         AtlasMgr.instance.setImgSrc(img[0] as HTMLImageElement, ProjectData.getPath(`quests_icons/QuestLineIcon/${quest.quest}`));
         const txt = $("<span>", {
-            text: ProjectData.language === lang.zh ? quest.title_zh : quest.title,
+            text: ProjectData.language === lang.zh ? quest.title_zh : (ProjectData.language === lang.fr ? (quest.title_fr ?? quest.title) : quest.title),
             class: "questText",
         });
         button.append(img, txt);
@@ -290,7 +297,7 @@ export class MainPage {
             for (let i = 0; i < this.buttonList.length; i++) {
                 let btn = this.buttonList[i];
                 let quest: questLine = btn.data("questData");
-                let title = ProjectData.language == lang.zh ? quest.title_zh : quest.title;
+                let title = ProjectData.language == lang.zh ? quest.title_zh : (ProjectData.language === lang.fr ? (quest.title_fr ?? quest.title) : quest.title);
                 btn.find(".questText").text(title!);
             }
         }
@@ -299,7 +306,7 @@ export class MainPage {
         let questData: questData = this.questAllData[ProjectData.language][quest.quest];
         if (questData) {
             let data: any = {
-                title: ProjectData.language == lang.zh ? quest.title_zh : quest.title,
+                title: ProjectData.language == lang.zh ? quest.title_zh : (ProjectData.language === lang.fr ? (quest.title_fr ?? quest.title) : quest.title),
                 data: questData,
             };
             try {
@@ -438,6 +445,8 @@ export class MainPage {
         TipsMgr.showLoading();
         if (ProjectData.language == lang.zh) {
             ProjectData.language = lang.en;
+        } else if (ProjectData.language == lang.en) {
+            ProjectData.language = lang.fr;
         } else {
             ProjectData.language = lang.zh;
         }

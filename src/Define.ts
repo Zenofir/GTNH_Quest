@@ -4,6 +4,7 @@ export type questLine = {
     quest: string;
     icon: string;
     title_zh?: string;
+    title_fr?: string;
 };
 
 export type dialogMsg = {
@@ -30,6 +31,7 @@ export enum localEnum {
 export enum lang {
     zh = "zh",
     en = "en",
+    fr = "fr",
 }
 
 /**所有的任务数据 */

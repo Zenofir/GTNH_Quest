@@ -35,6 +35,8 @@ export class ProjectData {
         var questDataPath = this.getPath(ProjectConfig.questDataPath);
         if (language == lang.en) {
             questDataPath = questDataPath + "_en";
+        } else if (language == lang.fr) {
+            questDataPath = questDataPath + "_fr";
         }
         return questDataPath + ".json";
     }
