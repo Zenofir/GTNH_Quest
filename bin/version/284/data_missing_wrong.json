@@ -1,0 +1,1180 @@
+{
+  "data": [
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAABMQ==",
+      "data": "...it mourns the dead. This might come in handy for some cases. By placing 2 on top of each other, you're able to set your respawn point to that location, without the need for a bed. It's up to you to imagine the possibilities..."
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAAFeg==",
+      "data": "Enderium screws are nice, but they seem to break if too much vis channels through them. Get some Oriharukon screws."
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAAACQ==",
+      "data": "Time to burn some stuff, isn't it? You can't make charcoal in it, but you sure will find some usage for it soon™."
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAAAAA==",
+      "data": "Hello, friend, and welcome to GTNH!<br/><br/>Don't get used to things being nice and comfy, because in about ten minutes the sun will set, and unlike Vanilla Minecraft, there's no light whatsoever at night but plenty of Infernal mobs coming to get you. So your first task is to find food and shelter for the night.<br/><br/>But by the end of this quest tab you will have a bed to make things easier.<br/><br/>You don't need to keep this book. Even if you don't have the item, you can press Tilde (~) to view it at any time...unless you decided to change the keybind.<br/><br/>If you need any extra help or just want to hang out, feel free to visit our Discord server at [url]https://discord.gg/gtnh[/url]. And yes, the links are clickable! On the Discord, select your tech tier in #role-select - it will help people to tailor their advice to your situation.<br/><br/>Many GTNH topics are explained in our Wiki at [url]https://wiki.gtnewhorizons.com/wiki/Main_Page[/url]. It does not have the same extent and structure as the Questbook, but some things are much better with pictures and tables! The wiki also has tips on extra topics like what additional mods might work with the pack, how GTNH can be installed for modern Java versions or how to set up a server.<br/><br/>Additionally, there is a spreadsheet at [url]https://www.gtnewhorizons.com/spreadsheet[/url] for the info you would want a spreadsheet for.<br/><br/>If you play through a launcher that relies on [warn]CurseForge[/warn], be aware that it doesn't always work properly. It doesn't play well with all the custom versions of mods that this pack has. So if you have any problems, first switch to another launcher like MultiMC, Prism, or Technic. The wiki has instructions there as well. The latest version of the pack is available on the Discord channel from #announcements or with the !download command.<br/><br/>Hopefully you didn't get munched by a monster while reading this, good luck!"
+    },
+    {
+      "quest_id": "iwN50p7pSyyCHDkM-O-D7w==",
+      "data": "These hold 33,554,432 units of essentia.<br/><br/>And can hold 60 types."
+    },
+    {
+      "quest_id": "G5g_5_24RS6sqhmjFEbf8A==",
+      "data": "These hold 8,388,608 units of essentia.<br/><br/>And can hold 48 types."
+    },
+    {
+      "quest_id": "cEFNSTdoRvysoNgmtDLdvg==",
+      "data": "You have mastered both interdimensional transportation and wallsharing, why not combine them?<br/><br/>You can link both crafting input bus/buffer to proxies with data sticks and use it to process patterns with multiple machines, as if you are wallsharing them, but without actually wallsharing them.<br/><br/>[note]Maybe this can reduce lag?[/note]"
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAAJ2A==",
+      "data": "Unlike regular pattern terminals, the processing pattern terminal doesn't have a crafting mode. Instead, you have a lot more slots for input and output, and the ability to swap them. Great for your Assembly Line patterns. Why not directly make the fluid option? It is a straight upgrade."
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAAIWA==",
+      "data": "The Energy Acceptor is an alternative place to inject energy into your AE2 network. You can form a \"dumb\" network with just an EA, but for real capability, you'll want a Controller.<br/><br/>[note]If you're making a subnet, just transfer power over with a Quartz Fiber.[/note]"
+    },
+    {
+      "quest_id": "krGyRorETXqDuJdbU3K5tA==",
+      "data": "[warn]Caution! Use with utmost care! This cell does exactly what it says. It deletes everything you put on there. So better make sure you have precise control over what can actually go there.[/warn]<br/><br/>[note]Will only void fluids, not items[/note]"
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAABdg==",
+      "data": "[warn]Caution! Use with utmost care! This cell does exactly what it says. It deletes everything you put on there. So better make sure you have precise control over what can actually go there.[/warn]<br/><br/>[note]Will only void items, not fluids[/note]"
+    },
+    {
+      "quest_id": "dmUrFrCfSESWj1ybHqTGNg==",
+      "data": "The ME Level Maintainer is another cool addition of AE2FC. Choose an item or fluid and an amount to maintain, and the Level Maintainer will attempt to call patterns to keep crafting the item until it reaches the threshold you configured. You can also configure the crafting batch size.<br/><br/>[note]For fluid crafts, put in a fluid drop and don't drag from NEI.[/note]"
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAAFMQ==",
+      "data": "Wireless Connectors are a close range Quantum Network Bridge alternative.<br/><br/>Connections are point-to-point - you can't connect more than 2 blocks together. Each block will use 10 + distance * ln(distance^2 + 3) AE/t. Does not work across dimensions. Power needs to be provided on only one side. Up to 32 channels can be transferred through the connection. Can connect directly to dense cables. The Wireless Connector itself does not use any channels.<br/><br/>[note]Also, these are more TPS friendly than large chains of dense cables![/note]"
+    },
+    {
+      "quest_id": "5ObFHI5BQ5Oxv0yca7morA==",
+      "data": "A brand-new tool for you, amigo.<br/><br/>This little buddy not only has a larger card slot than the normal one, but also can show more information about your network storage.<br/><br/>Clicking the component icon can switch between ITEM, FLUID, and ESSENTIA details.<br/><br/>[warn]NOTE:<br/>|  unit  |      range   |<br/>|    B   |    0~2^10   |<br/>|   KB   | 2^10~2^20 |<br/>|   MB   | 2^20~2^30 |<br/>|   GB   | 2^30~2^40 |<br/>|   TB   | 2^40~2^50 |<br/>|   PB   | 2^50~2^60 |<br/>|   EB   | 2^60~2^70 |<br/>|   ZB   | 2^70~2^80 |<br/>|   YB   | 2^80~2^90 |<br/>|   BB   | over 2^90  |[/warn]"
+    },
+    {
+      "quest_id": "tM8pT_W3RCqZNDAovERxFg==",
+      "data": "The Wireless Connector also has a HUB upgrade! These Wireless HUBs can be linked to many wireless connectors at once so you won't need to spam a chunk of 1:1 connectors into one spot. Keep in mind there is still a 32 channel limitation.<br/><br/>[note]Great for placing on controller faces![/note]"
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAAIlg==",
+      "data": "Aluminium isn't necessary until MV, but when you want it, you'll want lots. Requires block of Aluminium. Breed them from Nickel and Zinc."
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAAIpQ==",
+      "data": "Eldritch are the start of the magic bee family. Breed them from Mystical and Cultivated."
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAAImA==",
+      "data": "Ah yes, a very useful bee. Emeralds are used for many upgrades, and trading with villagers. Will require a block of Emerald. Breed them from Olivine and Diamond."
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAAIiw==",
+      "data": "Energetic Alloy will require a block of Energetic Alloy, of course. Breed them from Redstone Alloy and Demonic."
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAAIqg==",
+      "data": "Another basic Magic branch bee. Breed them from Eldritch and Cultivated."
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAABYQ==",
+      "data": "An iridium bee. You can actually get small amounts of pure osmium and iridium from its combs.<br/><br/>[note]With these combs and the uranium ones you can now make climate control units for modules in your industrial apiary![/note]"
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAAIfg==",
+      "data": "Finally, a bee with some real promise. The Lapis bee will require a block of lapis to breed. Breed them from Demonic and Imperial."
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAAI3Q==",
+      "data": "Magenta bees are also Fastest production, but come with +- 3 Climate. Breed them from Pink and Blue."
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAAM4g==",
+      "data": "Critical for your Ichor production.<br/><br/>[note]You will need to breed through a bunch of elemental bees that don't have quests to actually get to it.[/note]"
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAAIkg==",
+      "data": "Nickel bees provide a pretty useful resource. You'll need a block of Nickel. Breed them from Iron and Copper."
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAAI6w==",
+      "data": "Well at least you can get a couple of Sticky Resin from this otherwise boring bee. Breed them from Miry and Primeval."
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAAInw==",
+      "data": "Hatred. Of all things, living and solid. Keep bee housing away from anything valuable, or even not valuable. Breed them from Monastic and Vindictive."
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAAMHw==",
+      "data": "Your power needs quadrupled since the last tier, and it's likely that you're not getting Charcoal fast enough. Instead of adding even more Coke Ovens, why not build an upgraded version of them?<br/><br/>The caveat is that you won't keep producing Creosote alongside the Charcoal from now on. It makes for decent power in the appropriate generators, and you might have already used it to produce Lubricant. Despite that, you can still get Creosote from processing in the next steps of this questline, so you can still get it if you need it. With that out of the way, let's move on to the Advanced Coke Oven (ACO).<br/><br/>How is it made? The ACO needs a lot more steps than the normal Coke Ovens, steps centered around Nether materials, cooked in the EBF and then cooled down. The cooling part is normally the Vacuum Freezer's job, as you will see later in progression, but you can't build it yet; because of that, you'll have to use IC2 coolant to finish the bricks used in the ACO. Once you've crafted all the blocks needed for this, you can put it together and start it up, to see what's different from before.<br/><br/>The speed of this new one is 1 Charcoal per second, or the equivalent to 90 Coke Ovens. The cost of this is the loss of the Creosote, and also that it needs fuel to work, making it so approximately 1/16 of your Charcoal is lost in this step. Fortunately, you can automate it with item pipes, and the EnderIO conduits make it even simpler. Input wood, input charcoal, output charcoal.<br/><br/>Make one of these multis to continue. Be warned that you might need more!"
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAAMQw==",
+      "data": "If you are invested in making good IV power from Super Fuel, you will need a lot of Turbine multis. Their EU/t at optimal flow is much too low for you to survive with only one or two. However, there are several things you should consider in regards to these turbines, and the fuel you're using.<br/><br/>In summary, this fuel is very, very efficient. Turbines can be made faster by losing some efficiency. You have more than enough fuel efficiency to spare!<br/><br/>Let's review this in more detail. Turbines produce EU based on the flow rate of the fuel that they are consuming. Their optimal flow represents the highest fuel efficiency they can reach (140% or 150% for the good turbines in these tiers), but you can increase the flow beyond that point and still get a higher EU/t value. However, the fuel becomes less efficient. A good tradeoff, if you need it.<br/><br/>Steam loses efficiency quickly if you do this, though. The right way to pull this off with Steam Turbines is to switch to Loose mode, a mode unique to them, which makes the optimal flow shoot way up at a considerable loss to fuel efficiency. The jump in EU/t is so high, however, that you can replace a whole squadron of turbines with just one or two, as you can see if you look at the turbine items' tooltips.<br/><br/>Each setup has their own details, so you will have to work things out and make personal decisions about how you will manage the turbines. Just make sure to not let the EU/t value go beyond the maximum that the dynamo hatch can output, or you will have problems!"
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAAMFA==",
+      "data": "Despite finding oil spouts in the wild, you might have thought about extending the source of power you have used to reach the age of electricity. Steam was your energy, and burnable items your source of that energy, with wood and charcoal being the most likely candidates for automating your first power generation steps. Steam itself, however, is not the best option for all progression tiers, so the question is: what else can that wood do? That is what this questline will explain.<br/><br/>Each tier you reach will challenge you with bigger power needs. Not only do the energy tiers multiply by 4 every time you go up (32 EU/t for LV, 128 for MV, 512 for HV, etc.), but also the necessary growth of your setups, with more steps and each one becoming more complicated. To sustain all this, you might want a fully automated, infinite source of power and chemicals to handle this pack's progression. To achieve this, following the quests in this chapter is sure to be helpful.<br/><br/>As a final note, the power outputs of a fully renewable powergen like this are not as efficient as oil, which is the price to pay for being renewable. You will need a bigger machine setup to achieve the same EU/t output, but it is still very viable and worth it if you are willing to make this compromise. On the other hand, building these wood-related setups will give you some interesting chemicals to use in later crafts, chemicals that oil cannot directly create. You can choose one or the other, or just follow both paths at the same time if you're curious. It's up to you."
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAAMJA==",
+      "data": "No matter which way you used to get wood, you can simplify it. There's nothing much simpler than just pulling out more and more wood from a multiblock that doesn't even grow trees! That's what the Tree Growth Simulator does, with a special input: saws. This multi can replace the bonsais that were used for wood automation, however it is only available in IV. You have two further options in the meantime:<br/><br/>To continue using bonsais, in case you have gotten good stats on them, you can use the HV version of the Crop Manager, or the multiblock version, the Multifarm. This multi is special because it needs Uranium Rods, which are HV due to needing Eyes of Ender, but it has a massive range to harvest crops, being able to work with 1000+ of them, while only consuming 6 ULV amps when built correctly. It also hydrates and fertilizes automatically, and is much more efficient with the Fertilizer than its competition. Compared to the Crop Manager, it only loses out on the extra drops per harvest.<br/><br/>Other than these two options, you can also grow and harvest trees normally with the EnderIO Farmer, which is a more typical tree automation machine. It's HV-locked, simple, and reliable and only needs a bit of power to get the wood you need, at a pretty fast rate. Ideally you want to use an unbreakable lumber axe with a tree type that produces a lot of logs (spruce is decent). To crank out a lot of wood you can then use sprinklers with water or a world accelerator."
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAAHvw==",
+      "data": "You can build it! The Building Guide helps show you an outline of simple geometric shapes. Provide it with a redstone signal to activate."
+    },
+    {
+      "quest_id": "QNsm_wc0QO2g9C6_-vj2fA==",
+      "data": "Now that you are starting to find more and more copper, you feel your wood chests are too small to hold all the stuff.<br/><br/>[note]It's time to upgrade your wooden chests to copper chests! Higher tiers of chests can be upgraded cheaply by using upgrade items, but not all tier chests can be upgraded directly this way. You can also try the \"Wood to Copper Chest Upgrade\", but upgrading from wood to a tiered chest will not be any cheaper.[/note]<br/><br/>[note]Upgraded chests cannot be connected into double chests.[/note]"
+    },
+    {
+      "quest_id": "U0LzQUUkRIi-cY3ZpT4uiQ==",
+      "data": "[quest]Advanced MagLev Pylon III (EV)[/quest]<br/><br/>The EV Pylon has a §c48§r block radius (97x97x97 cube centered around the pylon)<br/><br/>Radius is §9halved§r if the pylon is unpowered. <br/><br/>[note]The Protoss would be very happy with you[/note]"
+    },
+    {
+      "quest_id": "dbax1OsmRpWMg6Pt4tE_ig==",
+      "data": "The portable equivalent of the Copper Barrel.<br/><br/>Has §n45§r slots.<br/><br/>[note]Can be Dyed![/note]"
+    },
+    {
+      "quest_id": "DSkXvzhRSKiwFLJywGDMRg==",
+      "data": "An enhanced version of the Diamond Shulker that allows you to see the contents within.<br/><br/>Has §n108§r slots.<br/><br/>[note]Can be Dyed![/note]"
+    },
+    {
+      "quest_id": "aIt1E54yQaSOg4CMz-Xegw==",
+      "data": "The portable equivalent of the Diamond Barrel, you'll need to either upgrade your wand or take advantage of the Gold -) Diamond shulker box upgrade.<br/><br/>Has §n108§r slots.<br/><br/>[note]Can be Dyed![/note]"
+    },
+    {
+      "quest_id": "StA9TvxxSi2n2c7wQdCAFA==",
+      "data": "The portable equivalent of the Iron Barrel.<br/><br/>Has §n54§r slots.<br/><br/>[note]Can be Dyed![/note]"
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAAIOQ==",
+      "data": "This handy device will keep track of the flowers you have discovered so far, and their properties."
+    },
+    {
+      "quest_id": "KfgATF33ToiE0aYS4pp04Q==",
+      "data": "The Obsidian barrel holds as many items as the Diamond one, and is also immune to explosions."
+    },
+    {
+      "quest_id": "MbFXZcovQ1GRxQCeS2PUuw==",
+      "data": "The portable equivalent of the Obsidian Barrel that retains it's explosion-proof qualities.<br/><br/>Has §n108§r slots.<br/><br/>[note]Can be Dyed![/note]"
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAAElw==",
+      "data": "Want some aluminium ingots? Buy some!"
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAAGSA==",
+      "data": "Want some annealed copper cables? Buy some!"
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAAEGw==",
+      "data": "Want some Apiaries? Buy some!"
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAADwA==",
+      "data": "Want some brass rods? Buy some!"
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAAEAA==",
+      "data": "Want some bronze rotors? Buy some!"
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAADwQ==",
+      "data": "Want some certus quartz? Buy some!"
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAADzQ==",
+      "data": "Want some creosote? Buy some!"
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAAEGA==",
+      "data": "Want some Attuned Bees? Buy some!"
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAAFEQ==",
+      "data": "Need some Dragon essence? Buy some!"
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAAGSw==",
+      "data": "Want some electrum wires? Buy some!"
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAAEAg==",
+      "data": "Want some electrum rods? Buy some!"
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAAECg==",
+      "data": "Want some ender eyes? Buy some!"
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAAJ9g==",
+      "data": "Want some enderman heads? Buy some!"
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAAEBA==",
+      "data": "Want some ender pearls? Buy some!"
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAAD0A==",
+      "data": "Want some ethanol? Buy some!"
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAAEtw==",
+      "data": "Want some heavy fuel? Buy some!"
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAAEHA==",
+      "data": "Want some impregnated frames? Buy some!"
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAADyw==",
+      "data": "Want some integrated logic circuit chips? Buy some!"
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAAKsg==",
+      "data": "Need some Sky Stone, but it's all picked over? Buy some!<br/><br/>[note]PS: The presses are craftable at EV.[/note]"
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAAJKQ==",
+      "data": "You can exchange your stack of GT Iron Ore for vanilla Iron Ore."
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAADvw==",
+      "data": "Want some iron rods? Buy some!"
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAAEMg==",
+      "data": "Summon a Lich.<br/><br/>[note]Only works in the Twilight Forest dim.[/note]"
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAAEtg==",
+      "data": "Want some light fuel? Buy some!"
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAAEEg==",
+      "data": "Want some logic processors? Buy some!"
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAAD1Q==",
+      "data": "Want some lubricant? Buy some!"
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAAFng==",
+      "data": "Want some ME glass cables? Buy some!"
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAADzg==",
+      "data": "Want some naphtha? Buy some!"
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAAJgA==",
+      "data": "You can exchange your stack of GT Nether Quartz Ore for vanilla Nether Quartz Ore."
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAAD0g==",
+      "data": "Want some nitrogen? Buy some!"
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAAFVg==",
+      "data": "Want some Ocean Bees? Since some servers don't generate ocean biomes, buy some!"
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAADzA==",
+      "data": "Want some oil? Buy some!"
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAAD0Q==",
+      "data": "Want some oxygen? Buy some!"
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAAEDA==",
+      "data": "Want some plastic circuit boards? Buy some!"
+    },
+    {
+      "quest_id": "UfqhH_YFR4mUCSIUAFvaEg==",
+      "data": "You can exchange your stack of Raw Coal Ore for vanilla Coal Ore."
+    },
+    {
+      "quest_id": "mSqJ-fGJT4e_rZkG1Wlj2A==",
+      "data": "You can exchange your stack of Raw Iron Ore for vanilla Iron Ore."
+    },
+    {
+      "quest_id": "VjIdDoz-QLeLZVVDu1QXLg==",
+      "data": "You can exchange your stack of Raw Lapis Ore for vanilla Lapis Ore."
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAAEiQ==",
+      "data": "Want some red alloy cables? Buy some!"
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAAEKg==",
+      "data": "Want some Sorcerous Bees? Buy some!"
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAAEDg==",
+      "data": "Want some SMD resistors? Buy some!"
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAAElg==",
+      "data": "Want some steel ingots? Buy some!"
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAAEBw==",
+      "data": "Want some steel rotors? Buy some!"
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAADvg==",
+      "data": "Want some tin rotors? Buy some!"
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAAEKQ==",
+      "data": "Want some Unusual Bees? Buy some!"
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAADxQ==",
+      "data": "Want some vacuum tubes? Buy some!"
+    },
+    {
+      "quest_id": "UVG21mYSQJex90gQWdkpIw==",
+      "data": "Has 64 parallels and consumes ~30b EU/t per module, expensive to run but absolutely worth it."
+    },
+    {
+      "quest_id": "52Yelo6KSLGumzXo-_F5DQ==",
+      "data": "Or MHDCSM for short.<br/><br/>This is your primary material for UXV components. It's tricky to make and extremely expensive, as all endgame materials should be.<br/><br/>Instead of solidifying it directly, you need to coat Eternity parts with it.<br/><br/>Have fun!"
+    },
+    {
+      "quest_id": "bHFEDKAiTwGxaiyZEsmdjg==",
+      "data": "The final external structural upgrade to the Forge requires the most advanced understanding of graviton shards and their applications in extreme environments. With this, the last 4 module slots of the Forge of the Gods are available to construct, ascending your operation to unseen heights of technological mastery.<br/><br/>[note]Adding a third and final ring to your Godforge allows for 4 additional modules, as well as allowing you to pick all three paths in the split paths part of the upgrade tree, allowing for a fully upgraded Godforge.[/note]<br/><br/>[note]Usage of a third ring requires the EE upgrade.[/note]"
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAAKIg==",
+      "data": "It may not actually store any energy but it'll still be useful for some other endgame items."
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAAM4A==",
+      "data": "May Dreammaster have mercy on your soul. You have reached the highest craftable tier in the game!"
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAACdw==",
+      "data": "Tired of hunting for cows, zombies or sheep? You can build a trap and hope some animal or monster drops will be caught by the netting inside."
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAADWg==",
+      "data": "I need some ingredients to help me train since they don't grow well where I am, could you provide some? I'll give you the results in return.<br/><br/>[note]You only need to turn in one set each time you complete the quest.[/note]"
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAAIAA==",
+      "data": "Given up on looking for moss in the Twilight Forest? You can easily grow a crop that will give you the various mosses, perfect for your Tinker's tools. Start with a lily pad."
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAAGRg==",
+      "data": "Sugarcane or Reed not keeping up with your sugary needs? Sugar beets give 8 sugar per beet. Potatoes or carrots should easily give you sugar beets.<br/><br/>Hmm, now I want some candy. Give me some sugar from your beets. I'll share some with you.<br/><br/>[note]Electrolyze the sugar into O2 for an easy source.[/note]"
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAACfg==",
+      "data": "Smelt your bread again and you get some toast! It gives you more nutrition points, and unlocks more culinary potential!"
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAAHCg==",
+      "data": "Instead of killing animals, just mutate some crazy GMOs into making animal products for you. Science!"
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAAFBA==",
+      "data": "Giant wasps can be found in the Nether. Quick! Sneak into their hive and steal some honey!<br/><br/>[note]Just having the fluid in cells or buckets in your inventory lets the quest detect it.[/note]"
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAAC1A==",
+      "data": "Weeds will show up from time to time on empty or double crop sticks. They will spread from there and take over all your precious crops, so harvest the weed with your weed trowel before you start desiring to reload the last backup. Later you can make some Weed-EX to prevent them from appearing (until it runs out)."
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAAFXg==",
+      "data": "The Wand Focus: Shock will shoot a bolt of lightning. It homes in slightly to the nearest mob/player from where it is aimed. It is even fast enough to hit Endermen before they can teleport away!<br/><br/>[note]This focus accepts the following upgrades in the Focal Manipulator:[/note]<br/>§5Frugal§r: Lowers vis cost to cast by 10% per level<br/>§5Potency§r: Increases damage dealt every level<br/>§5Chain Lightning§r (level 3): The lightning bolt now arcs to two nearby creatures. Great for dealing with bats from warp!<br/>§5Earth Shock§r (level 3): The focus now shoots a ball of lightning that leaves the ground electrified<br/>§5Enlarge§r (requires §5Chain Lightning§r): The lightning bolt arcs to two additional targets per level. Show those bats who's boss!"
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAAFbw==",
+      "data": "The Wand Focus: Experience Drain will drain the player's experience at a rate of 15 XP per tick to restore vis at a rather fast rate.<br/><br/>[note]This focus cannot be upgraded in the Focal Manipulator[/note]"
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAABSg==",
+      "data": "This can be used to go back to a Celestial Gateway if you have a bound Celestial Pearl in your hotbar. It will use the leftmost one in your hotbar, so you can carry multiple to travel around with!"
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAAFYA==",
+      "data": "The Wand Focus: Frost will launch a ball of ice that can bounce off of blocks and mobs.<br/><br/>[note]This focus accepts the following upgrades in the Focal Manipulator:[/note]<br/>§5Frugal§r: Lowers vis cost to cast by 10% per level<br/>§5Potency§r: Increases damage dealt every level<br/>§5Alchemist's Frost§r (odd levels): Applies Slowness to hit mobs. Higher levels increase the potency of the effect<br/>§5Scattershot§r (level 3): The focus now shoots a volley of shards that break on impact. The normal damage immunity timer is ignored, so multiple shards can hit the same mob at once and all will deal damage. §5Potency§r increases the number of shards instead of the damage<br/>§5Ice Boulder§r (level 3): The focus now shoots a larger, bouncier, and deadlier ball of ice"
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAAFdQ==",
+      "data": "The Wand Focus: Time can be used to move time forward by 12 hours. Using this focus at noon will set the time to midnight, while using it at dusk will make it dawn. This focus will also make the player unable to use any other foci for 30 seconds.<br/><br/>[note]This focus accepts the following upgrade in the Focal Manipulator:[/note]<br/>§5Frugal§r: Lowers vis cost to cast by 10% per level"
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAAFXw==",
+      "data": "Wand Focus: Equal Trade is able to switch out blocks in the world with blocks in the player's inventory. Shift-right-click on a block to attune the focus to the block. Once attuned to a block, left-click on a single block to replace it with the substitute block. Right-click will transform a contiguous 5x5x5 area of the same block that has air on at least one side. This can go through thin walls or into caves, so be careful. Very useful for upgrading EBF coils or for swapping other blocks that are slow to break like Obsidian! It cannot be used to break or place blocks with Tile Entities like chests.<br/><br/>[note]This focus accepts the following upgrades in the Focal Manipulator:[/note]<br/>§5Frugal§r: Lowers vis cost to cast by 10% per level<br/>§5Enlarge§r: Expands the maximum range by 1 block in each direction per level<br/>§5Treasure§r (level 3): Works like vanilla Fortune<br/>§5Architect§r (level 3): Allows the focus's working area to be modified with the Misc Wand Toggle keybind. Sneaking with the keybind changes which axes are modified. This upgrade also changes the working area to a plane, so be sure to test this upgrade out before committing to it and applying further upgrades<br/>§5Silk Touch§r (level 5): Works like vanilla Silk Touch"
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAAI0A==",
+      "data": "Brazil Nuts don't give you much in the way of important attributes. Breed them from Common Beech and Jungle."
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAALLg==",
+      "data": "You can breed a Coast Sequoia by combining Mundane Larch and Bull Pine.<br/><br/>[warn]Fireproof Wood Get! If you care.[/warn]"
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAAI0Q==",
+      "data": "Coconut is King for seed oil production - 300L per nut. Breed them from Brazil Nut and Balsa.<br/><br/>§eCoconut and Seed Oil Get!"
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAAIVQ==",
+      "data": "Desert Acacia. Another step on the road. Breed it by mating Teak with Balsa."
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAALNA==",
+      "data": "You can breed an Elderberry by combining Common Alder and Aspen."
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAACTA==",
+      "data": "It's now time to search for some ores. Apatite is the most important material in Forestry. You can make fertilizer, farm blocks and other things with it. The vein is found between Y 40-60."
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAACSQ==",
+      "data": "Your thermionic fabricator needs heating coils to function. So combine some magnetized (requires polarizer) steel rods with some copper wire and make some.<br/><br/>[note]Why is this a separate quest again?[/note]"
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAAFSw==",
+      "data": "From ore to ingot, from nano to quantum, as you progress, your technology level increases, so should your wings as well."
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAAFYw==",
+      "data": "When transporting oil from long distances, a train is going to need a chunk loader. Craft one, and I'll give you a second one for free.<br/><br/>[note]This quest might not be completable in MP?[/note]"
+    },
+    {
+      "quest_id": "8QSORTVOSOaUXC6mQurMgA==",
+      "data": "The relocator allows for teleportation to previously marked locations, even between dimensions.<br/><br/>[note]Uses quite a lot of power so a GraviChestPlate or other energy sources are recommended.[/note]"
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAAI1g==",
+      "data": "Quantum Boots of the Traveller, for when you really need to run as fast as the wind. Might cause you some problems standing still!<br/><br/>[note]If you want to advance in the dark arts you can also make them voidwalker boots.[/note]"
+    },
+    {
+      "quest_id": "qp3SFb9oSXKi5Yio_VwgEw==",
+      "data": "Automating crafting table recipes is a good first step to automate your processes.<br/><br/>To achieve this goal, get yourself a crafting logistics pipe and a logistics crafting table.<br/><br/>You can import a crafting table recipe into a logistics crafting table and you can click the \"import\" button on the crafting logistics pipes GUI that is connected to the crafting table to import the recipe into the pipe."
+    },
+    {
+      "quest_id": "FYOm8b1PRTKsyVjFdpBqjg==",
+      "data": "Most of the time you are requesting things because you need to craft something. So here is the Logistics Request Table.<br/><br/>This thing comes with a 3*3 crafting grid that you can load with a NEI recipe and request the recipe. There is also an inventory buffer that you can use to store items within."
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAAJNQ==",
+      "data": "Energy Clusters have different health levels, which affect the regeneration (or leaking) speed.<br/><br/>Clusters can be moved using Energy Wand. Moving them too far or across dimensions can have negative effect on their health.<br/><br/>Blocks that use Energy will take it from Clusters up to 16 blocks away, and from the environment if placed in the End.<br/><br/>Items that use Energy automatically refill in the End, or can be used on a Cluster to start and stop draining the Energy."
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAAJMg==",
+      "data": "After the altar creation is complete, a player has to place up to 8 solid blocks (of any kind) near the altar. These blocks require 1 block of air above them and no solid blocks touching them on the sides and diagonally. These blocks are the pedestals. The Dragon Essence Altar will project purple particles to all the pedestals connected to it.<br/><br/>Placing an item on the pedestal is done by throwing. After the item has been placed on top of the pedestal, the altar will start \"infusing\" the item using Dragon Essence stored in the altar itself. Adding more essence to the altar is done by right-clicking.<br/><br/>Infusing makes items repair themselves (excluding items which require Energy), increase the level of existing enchantments (up to 4 enchantments per item) and even gain new enchantments.<br/><br/>There are two items by this mod which can be obtained only by Dragon Essence infusion:<br/><br/>Enhanced Brewing Stand - by infusing a vanilla Brewing Stand, requires 20 pieces of Dragon Essence.<br/><br/>Temple Caller - by infusing a vanilla Eye of Ender, requires 50 pieces of Dragon Essence. It's disabled though, so don't bother."
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAAJRg==",
+      "data": "Infestation Remedy is a drinkable item used to shorten effects of the Infestation.<br/><br/>Obtaining:<br/>The Infestation Remedy is brewed in an Enhanced Brewing Stand, using Silverfish Blood as the brewing ingredient and an Awkward Potion.<br/><br/>Usage:<br/>When drank, the remedy will shorten each of the Infestation effects by 150 to 180 seconds.<br/><br/>You can make splash potions with gunpowder and 3 more End Powder as well."
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAAJQg==",
+      "data": "The Scorching Pickaxe is a special type of pickaxe that smelts blocks and applies fortune effect to ores.<br/><br/>It only works on smeltable blocks and ores. Blocks that smelt into items are affected by fortune, including for example Iron Ore and Cactus.<br/><br/>Compatible blocks are also mined much faster.<br/><br/>GT Ores are not affected. You can find Vanilla Ores in the Twilight Forest inside Hollow Hills.<br/><br/>[note]So basically, it's useless.[/note]"
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAAKuw==",
+      "data": "I'm not sure this has any utility value since the butterflies are going to all be in chunkloaded areas, and thus near your base, but feel free to make it anyway."
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAAIKg==",
+      "data": "A GT++ Mutagenic frame will get your bees to their final destination faster than you can blink. Just remember to wear your rubber suit while making it!<br/><br/>[note]These will break in the alveary before they take effect since their durability is under 6. So you can only get to 125x, but I think that's enough, don't you?[/note]"
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAACAA==",
+      "data": "DNA samples of species and/or traits are pretty valuable. You always should keep at least one of each gene sample you get your hand on in a chest somewhere safe. By using this machine, you are able to copy any gene sample, for the cost of an empty serum vial and some labware.<br/><br/>[note]You don't actually need to keep all of them if you don't intend to use them of course.[/note]"
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAACCw==",
+      "data": "On your way to awesome bees, you have to collect only the best traits available."
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAAF5w==",
+      "data": "Stop guessing what the humidity and temperature are for your biome. Use the habitat locator to get a reading on your current climate."
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAACDw==",
+      "data": "On your way to awesome bees, you have to collect only the best traits available. Bee working day and night, all night and all day long!"
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAAIOA==",
+      "data": "You'll need various tools and supplies before you start manipulating genetic material."
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAAK7g==",
+      "data": "Turns lava into power, at very inefficient rates. Also, seems to produce way more pollution than it says. They also require you to be 2 tiers above the output amount, so, yeah.<br/><br/>[note]Wasn't geothermal supposed to be environmentally friendly?[/note]"
+    },
+    {
+      "quest_id": "3r7tJ7_bTuePzsh-B_jyIQ==",
+      "data": "It's like cured meat... no, not at all, many sacrifices were made on the path to understanding radioactivity, may they be remembered forever. This goes to you, Marie and Pierre Curie.<br/><br/>This is the only non-plasma produced in a fusion reaction in this entire chain. That's not the important part, though: the important part is that [warn]this is one of the bottlenecks of the chain.[/warn] For every reactor running the final recipe, you will need around 0.144 reactors of this, so you won't make it to a compact at the end with just one mk1 reactor. Expect to follow the count of the second-to-last recipe, the Advanced Nitinol one."
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAALjw==",
+      "data": "This insane machine is used to make MkIII and higher tier naquadah fuel.<br/><br/>It can't be overclocked by increasing the input voltage. The only way to overclock it is to use higher tier coils.<br/><br/>It also supports §9Tec§1Tech§r's Multi-Amp energy hatches and laser hatches.<br/><br/>Example: The MkIV fuel requires tier 2 coils and the refinery is using tier 3 coils. This gives a perfect overclock, using 4x power and 0.25x time."
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAAHbg==",
+      "data": "With a nuke, you can cause some real catastrophic damage to your base. You can either place it 20 chunks away, or surround it with blast proof materials.<br/><br/>Fused Quartz is no good now, forget about it OK? Instead, use the GTNH approved Plated Reinforced Stone series! Or one of the other options I guess, like Warded Glass. You may need multiple layers depending on your reactor, try it out in creative. Remember you must close in the corners - blasts can slip through the cracks. To get power out, do right angle turns on the wires as blasts go in a straight line.<br/><br/>[note]There are 6 of them, use NEI.[/note]<br/><br/>[note]Okay, okay, you don't have to forget Fused Quartz, I'll give you some. Maybe you can stop rain with it.[/note]"
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAAK8g==",
+      "data": "Runs for a reaaaally long time. Outputs an amount based on the fuel pellet given.<br/><br/>241Am: 16 EU, 69875 days<br/>90Sr: 30 EU, 62640 days<br/>238Pu: 64 EU, 42982 days<br/>210Po: 480 EU, 34560 days<br/><br/>Honestly, it's super not worth it. Especially considering you need to make a Cyclotron to make the fuel. And it's not even guaranteed!"
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAAHaA==",
+      "data": "These are...not worth it. Go do something else with your enriched naquadah, like putting it in a naq gen if you want power. They work §oexactly§r the same as uranium other than materials cost/output.<br/><br/>[note]PS: You can get Nq+ from both centrifuging Nq dust or processing the ore.[/note]<br/><br/>[note]And why are they Naquadah rods when they're made of Enriched Naquadah?[/note]"
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAABOA==",
+      "data": "To make use of your armor to its full extent, you'll have to unleash its hidden power. This is not an easy task; But it's well worth the effort!"
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAABOg==",
+      "data": "To make use of your armor to its full extent, you'll have to unleash its hidden power. This is not an easy task; But it's well worth the effort!"
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAABPQ==",
+      "data": "To make use of your armor to its full extent, you'll have to unleash its hidden power. This is not an easy task; But it's well worth the effort!"
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAABkA==",
+      "data": "The dragon must die. Long enough has she destroyed those precious endstone blocks!<br/><br/>[note]PS: Hold shift and whack it with a vanilla sword.[/note]"
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAADig==",
+      "data": "It seems the cold doesn't bother her. Committed crimes: None. But... you know... you have to progress somehow...<br/><br/>[note]PS: Keep going.[/note]"
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAADjA==",
+      "data": "Hey, you! I want that lamp. I have something for you in return. You don't need it anyways, do you?<br/><br/>[note]If you want the TF achievement, get that first.[/note]"
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAADiQ==",
+      "data": "It flies, it makes funny sounds, and... IT'S SO FLUFFY! Well, kill it."
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAABlQ==",
+      "data": "You've mastered everything possible. And now it's time to give your equipment the final boost. The infinity egg is just the right addition to your altar. It's quite expensive, but well worth the cost."
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAAJiQ==",
+      "data": "I think I need a new leather coat. Let's slaughter a few cows."
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAALEw==",
+      "data": "Oh, how cute this little rabbit is. Pow! .... oh it's dead?"
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAALJQ==",
+      "data": "They are highly explosive and make holes much larger than regular creepers.<br/><br/>They also cause a lot more damage. So be careful!"
+    },
+    {
+      "quest_id": "z6Xaal6yTVi4fqEFCChoGg==",
+      "data": "The Stray is a variety of Skeleton you will find in colder biomes. Watch out for their arrows; they can have a slowness effect!"
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAALEg==",
+      "data": "Delicious roasted wild boar. Mmm... very tasty."
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAADkg==",
+      "data": "Nobody knows who they are, or where they came from. They're just annoying at night, and too stupid to make a crafting table."
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAADiA==",
+      "data": "Phantom Busters! Or wait... Ah whatever. They drop good armor by the way."
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAAGOQ==",
+      "data": "A kettle is needed in the spirit world too."
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAAGNA==",
+      "data": "Need more coins? Kill demons for coins. The world is better off without them."
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAAJHw==",
+      "data": "Taglock Kits are used to collect taglocks from other players or creatures. Taglocks, such as locks of hair, fingernail clippings or blood, are used in various recipes to create a link between the creature and the magic.<br/><br/>Use a taglock kit on a creature, or the used bed of a player, to collect some taglocks from that being. Repeated use on the same bed will cycle taglocks for each player who has used that bed. The kit can also be used on a Leech Chest to collect taglocks from users who have opened the chest or on a Blood Rose to collect the taglock of the player that walked over it.<br/><br/>Shift-clicking on any bed will fill the kit with the current players taglocks.<br/><br/>Collecting taglocks by using the kit on a player has a chance of failing and informing the other player what you were trying to do. To increase the chance of collecting a taglock from a player, sneak, and prefer approaching from behind.<br/><br/>Taglocks can only be collected from players who are logged into the same world.<br/><br/>Taglock kits are made by crafting a Glass Bottle with a Bone Needle."
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAAGNQ==",
+      "data": "Need more coins? Selling wispy cotton for coins."
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAADbA==",
+      "data": "Tired of using small cells to process chemicals? Build a Large Chemical Reactor and you can just pipe in and out fluids. Or use the glorious large fluid cells to deliver and remove fluids from the hatches.<br/><br/>You can decide if the reactor should void any extra products when the outputs are full or not by toggling the void mode in the GUI!<br/><br/>There are also recipes specific to only the LCR, sometimes even allowing you to skip a step, so keep your eyes open for that.<br/><br/>Additionally, as a multiblock, LCR also counts as a cleanroom for any cleanroom recipes.<br/><br/>You will also need:<br/>1 Maintenance Hatch<br/>1-2 Energy Hatches<br/>0+ Input Bus (if a recipe has an item input. For full automation, you should probably use 1 for each material)<br/>0-1 Output Bus (if a recipe has an item output)<br/>2+ Input Hatch (use 1 for every fluid)<br/>1+ Output Hatch (same as above)<br/><br/>You can use a screwdriver on an output hatch to cycle through its modes. Use shift-right-click to go directly to specific fluid mode, then lock the fluid with a cell for easier automation. This works on more than just the LCR."
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAAH9A==",
+      "data": "The Volcanus Advanced EBF will process items faster than you can believe. You'll need a constant supply of Pyrotheum to use it. And coils.<br/><br/>[note]This multi is IV, but uses 2 ZPM circuits.[/note]"
+    },
+    {
+      "quest_id": "XA467S8MQtCEPy6L23eEEA==",
+      "data": "You probably haven't thought about the extractor in a while. Is your steam extractor still collecting dust somewhere? Well, if you do find yourself needing to extract things quick, (processing industrial quantities of flowers, maybe?) pick up the Dissection Apparatus.<br/><br/>[note]This multi gets additional parallels based on tier of item pipe casing, so use the best one you can get![/note]"
+    },
+    {
+      "quest_id": "bLAFkZX-RHGRFAz-C93aeQ==",
+      "data": "This multiblock will allow you to use all that UU-Matter that your Matter Fabricator makes, not that you don't have anything else to do with it...<br/><br/>[note]This multi is traditionally UV, but can technically be made in ZPM.[/note]"
+    },
+    {
+      "quest_id": "bkEol9zuRiiCMwMUopFHhg==",
+      "data": "When you need to polarize magnets or separate magnetic materials, look to the MFE! This multiblock requires an electromagnet to be inserted into its housing - better magnets, better bonuses. In IV, you'll be stuck with an Iron Electromagnet, though.<br/><br/>[note]At the final tier of electromagnet, you can use TecTech multi-amp hatches. Might be good to remember when you're processing a certain magnetic material...[/note]"
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAACuQ==",
+      "data": "Steel production is so slow. If you got enough bricks and clay, build a second BBF. Build it attached to the first one, so they can share a wall and you will save some bricks, clay and concrete.<br/><br/>[warn]Note that this will generate twice as much pollution in total - consider moving them further away.[/warn]"
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAACug==",
+      "data": "Not even two BBFs are fast enough...Can you figure out how to save the most bricks making 4?<br/><br/>[note]PS: If you can't, this pack may not be for you.[/note]<br/><br/>[warn]Note that this will generate massive amounts of pollution - have you considered the Nether?[/warn]"
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAAG-w==",
+      "data": "So, if you want to do more than one recipe in your Assline, you want a Data Access Hatch. There are 3+1 versions.<br/><br/>Data Access Hatch: It holds 4 data sticks, so 4 recipes.<br/><br/>Advanced Data Access Hatch: It holds 16 data sticks. Ironically, you can make this right away.<br/><br/>Automatable Data Access Hatch: It's UV, but it allows I/O of the sticks. Skip it.<br/><br/>The Data Bank Multi: Can be connected to multiple Asslines, and can contain more than 1 DAH. This is the best way, when you can do it. Look in ZPM for the quest.<br/><br/>[note]You only need to make one.[/note]"
+    },
+    {
+      "quest_id": "bLz_cD33RE24mtOb2aLxXg==",
+      "data": "The Decay Warehouse stores a single type of radioactive isotope and allows it to decay over time. <br/><br/>The decay speed of the isotope is §adependent§r on its half-life.<br/><br/>Isotopes will decay §9regardless§r of whether the warehouse is on or powered. <br/><br/>The Warehouse's capacity equals the chest's capacity divided by §c400§r.<br/><br/>Capacity of the multiblock for each chest:<br/><br/>§6Super Chest I:§r §c10,000<br/>§6Super Chest II:§r §c20,000<br/>§6Super Chest III:§r §c40,000<br/>§6Super Chest IV:§r §c80,000<br/>§6Super Chest V:§r §c160,000<br/>§6Quantum Chest I:§r §c320,000<br/>§6Quantum Chest II:§r §c640,000<br/>§6Quantum Chest III:§r §c1,280,000<br/>§6Quantum Chest IV:§r §c2,560,000<br/>§6Quantum Chest V:§r §c5,368,000§r<br/><br/>[note]Right click the controller with a §aScrewdriver§r to dump stored isotopes into an output bus.<br/><br/>Right click the controller with a §aPlunger§r to empty it. [/note]<br/><br/>[warn]The Warehouse's contents are §nvoided§r when the controller is broken[/warn]"
+    },
+    {
+      "quest_id": "jreOZVXRQa2sGXViV7-3Gg==",
+      "data": "Is the Water Tank not cutting it anymore? Have you set up in a dry biome and are in desperate need of more water? Fear not, for the Steam Water Pump can solve your issues! This Multiblock is able to produce large amounts of Water if fed with Steam (1500L/s).<br/><br/>Like other Steam Multiblocks, it can be upgraded by using Steel Frame Boxes instead of Bronze ones, which doubles the Water output at no additional Steam cost.<br/><br/>§4It is, however, still dependent on how humid the Biome you are in is, so keep that in mind.§r<br/><br/>§9Hint: You can find small lead ore in the Nether!§r<br/><br/>[note]P.S. The optional quest item count includes the cost for the controller. [/note]"
+    },
+    {
+      "quest_id": "prKPwVNgSgOE1NGPiEEF-g==",
+      "data": "...but they can be as industrious as bees. These new electric friends are great companions for Multiblock machines: maintenance, control, management—they can do it all.<br/><br/>§lThe Drone Centre is a newly designed machine. It doesn't need power; just put a drone into it and it will start running.<br/>Once running, the drone will automatically scan for a '§lDrone Downlink Module§r' (replacing maintenance hatches on Multiblock machines) within a certain range and attempt to establish a connection with the host. If successful, you can remotely control this Multiblock machine from the Drone Centre GUI! Additionally, you can rename the machine for easier identification.<br/><br/>[note]You can rename it either by right-clicking the Drone Downlink Module or in the Drone Centre GUI.[/note]<br/><br/>Placing more advanced drones will increase the range of the Drone Centre, with no limit on the amount of drones.<br/><br/>[warn]Notice that drones may crash during operation—the probability decreases from Tier 1 to Tier 3, and Tier 3 Anti-Gravity Drones never crash.<br/>Besides, If the machine host is too far from the Drone Centre, the GUI remote control function will be disabled, but the turn-on/off-all-button and maintenance functions will still work.[/warn]<br/>§6§l<br/>Maybe one day, our drone can control machines on other planets...drive engine online!"
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAAHcA==",
+      "data": "Higher tier superconducting wires and energy hatches will require helium. Compressing air and liquefying it requires 1802 compressed air cells to get 1 He cell. It's probably better to get it from end stone dust or monazite from the Moon. Another option is to have a look at your oil processing and see how you can get Helium from there.<br/><br/>[note]PS: If you've progressed far enough in the TF, you can also chip off parts of the snow queen's lair. She won't mind, right?[/note]"
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAALeg==",
+      "data": "It is used to accelerate the NKE. You just need to connect a cable to it and it will keep consuming the energy.<br/><br/>[note]PS: You can use a controller cover to stop it.[/note]"
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAALeA==",
+      "data": "The Neutron Activator is a unique machine that you will use for processing Naquadah, and eventually Naquadah Fuel should you choose to do so.<br/><br/>Unlike traditional multis, instead of using a regular energy hatch, this machine relies on a Neutron Accelerator that will need to be regulated by a Sensor Hatch. §3(The Neutron Accelerator needs to be provided power just like an energy hatch)§r<br/><br/>The accelerator will increase its Neutron Kinetic Energy (NKE) and when the NKE is between the requested number which you can see in NEI, the machine will work and output the right products. However, if you turn on the Neutron Activator when NKE doesn't meet the requirement, it will still consume your input material but output trash. So be careful with the NKE when you run this machine.<br/><br/>When all Neutron Accelerators aren't running, NKE will decrease 72keV/s.<br/><br/>Neutron Activator will explode when NKE is over 1200MeV.<br/><br/>§dYou can enable batch mode with wire cutters.§r<br/><br/>[note]The more height/speed casings you have, the more inefficient the EU->eV conversion becomes, so you then need more power. The math is as follows: Multiply recipe time by 0.9 for each height above 4 and multiply eV you get from your input power by 0.95 for each height above 4.[/note]"
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAAMzQ==",
+      "data": "With the control of spacetime you have achieved and its 0K temperature it would be possible to make an even better cooling unit. A casing able to keep its room temperature very low and nanites which can transfer heat effectively because of their small bodies. This doesn't quite work and some coolant is still needed, but water freezes at those temperatures so super coolant will be our choice.<br/><br/>[note]The Thermosink Radiator allows for 4/4 OC making it possible to speed through recipes. It requires 10/s of super coolant in its hatch, it's in the same place as the Liquid Cooling Tower.[/note]<br/><br/>[warn]This upgrade is incompatible with its lower tier predecessor.[/warn]"
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAALTQ==",
+      "data": "To process more advanced materials like neutronium or fluxed electrum you need more than 8100K. Upgrade your EBF to 9001K. (OVER 9000!!!)"
+    },
+    {
+      "quest_id": "ad_fPxg-ThqyyuppTrG1gQ==",
+      "data": "One such improvement is the Advanced Redcrystal.<br/><br/>It allows you to set a threshold with your wand to define how strong a signal needs to be in order to pass through. This can come in handy when checking fill level of tanks or power storage.<br/><br/>[note]One caveat for redstone experts: The Advanced Redcrystal checks the signal strength in the block it is in, not in the previous block like a comparator would.[/note]"
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAAIEw==",
+      "data": "Now that you have Goggles of Revealing, Thaumic Horizons offers various lenses with handy uses. This one will grant night vision. Try out some of the others."
+    },
+    {
+      "quest_id": "PKOdH3D6SsG3LQN6-pFF_A==",
+      "data": "We get it; The early-game of thaumcraft sucks and you don't want to throw every one of your 1000 items on the ground and scan them. That's why we added 2 cool QoL features which makes this tedious task very quick and easy.<br/><br/>1. You don't actually have to throw the item on the ground. You can scan it directly from your inventory! Simply hover it over the item you want to scan, and after a short duration it will be scanned.<br/><br/>2. You've probably accumulated dozens of double chests full of junk that you don't want to sift through and scan, so there's a second feature now: Scanning entire chests! Simply shift right-click while hovering over a chest with your thaumometer and it'll scan EVERY item inside of the chest. Though be beware, this strong feature requires a bit of research. <br/>[note]To unlock the research, go to your Thaumonomicon, open \"Basic Information\" (the first tab), and complete this research path: Research -> Research Expertise -> Deconstruction Table -> Container Scanning[/note]"
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAAESA==",
+      "data": "To unlock research you need a scribing tool and paper. To do the research, you need a scribing tool and the research note you made in the research table, so you should probably make two tools.<br/><br/>Note: Thaumcraft Research Tweaks has reworked the research table GUI. Aspects are now combined with drag & drop between aspects in the GUI. You can also right-click while dragging the aspect instead of dropping; the same works with the hexes. All the new features are described in your Thaumonomicon, make sure to check out the 'Research', 'Research Expertise', 'Research Mastery' and 'Research Duplication' pages."
+    },
+    {
+      "quest_id": "fmeCtrL-SNGqaLb208VSiQ==",
+      "data": "Redstone Dust is a wonderful substance, but it has several limitations that only true Minecrafters can handle.<br/><br/>Luckily, with a bit of magic the dust crystallizes and becomes much easier to handle.<br/><br/>Redcrystal can be placed directly against a wall or ceiling, and also allows you to use a wand to toggle whether a given side sends/receives any redstone signals. This allows for nice and compact builds in places regular redstone couldn't even exist in the first place.<br/><br/>Maybe it is possible to improve these redcrystals further to allow them to manipulate or process the signal they're receiving in some way..."
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAAH-g==",
+      "data": "Just listening to this tank gulp water makes me thirsty. If placed next to a water source block, it is a decent water source. It also supports several upgrades to speed and capacity. Try out this glyph near your cows, and get a tank full of milk for all your cheese and butter needs."
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAAFWA==",
+      "data": "If you're in the Twilight Forest and your portal gets broken, you're kinda stuck. Every 24h you're able to exchange some materials to get a new portal crystal to escape.<br/><br/>§3Also consider making an extra yourself and sticking it in a chest on the TF side, just in case."
+    },
+    {
+      "quest_id": "bfrxXr1iSpGQS8iV95nJeA==",
+      "data": "More advanced Thaumcraft recipes require larger and larger amounts of vis that your initial wands can't handle. You need to progress bit by bit to increase your capabilities. The progression is two-fold:<br/><br/>First, you need to craft more advanced wands, the Greatwood Wand is next. And secondly, you need to improve your crafting discounts. They reduce the vis cost of crafts and thus also let you craft higher vis recipes.<br/><br/>In your progression you will need to rely on both aspects. Better wands and higher discounts. However, as you progress, there are many different ways on how to proceed. Some ways focus more on discounts, others more on wands. Therefore, the questbook can only give you some general advice.<br/><br/>For example, when making a new wand type, it is always cheapest to first make it with iron caps and then try to improve it afterwards. One way you can improve your wand is by swapping the cores & caps for higher tiers as you unlock them §3(see \"Substitution\" research)§r. However, if you are able to obtain enough discounts you can directly make the wand with gold caps or better, skipping the iron capped wand altogether.<br/><br/>But before all these options really open up, let us work on that Greatwood Wand!"
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAAHyw==",
+      "data": "Enchanted Fabric is the key material to fancy robes and wizard's clothing."
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAABsg==",
+      "data": "Mining never was easier. Just right-click with this tool and all the stone is gone! Like all bound tools, this uses a massive amount of LP.<br/><br/>[note]Watch out for falling into lava![/note]"
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAABsw==",
+      "data": "Ever wanted to clear out a large piece of terrain with dirt, gravel and sand? Why not let demons do it? This shovel, imbued with the soul of a demon will unleash the power by your will. But be warned: The demon you're about to summon with this is thirsty, and it costs a lot of LP to make use of it, so make sure your LP pool is full!<br/><br/>[note]Will not dig beneath you.[/note]"
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAAJlQ==",
+      "data": "This stone allows you to create simple rituals, such as changing the time to night, or summoning a thunderstorm."
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAABnQ==",
+      "data": "If empty, you don't have to throw the potion away. Just refill it."
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAABpg==",
+      "data": "You need MOOORE. Imbue some slates with even more blood."
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAAMYA==",
+      "data": "Yes, you can. In fact, you can get it much earlier than EV, but the speed at which you get it can vary wildly, depending on how you approach this problem. Uranium is the main upgrade to Thorium in nukes, with a lot more power to give and a different useful breeding byproduct, but you need about 3 stacks of Uranium 238 to set up the most powerful basic IC2 Uranium Nuke.<br/><br/>How do you get it, though? The one answer is, you get it from Thorium. Looking at NEI, the Thorium ore processing has a chance to give Uranium dusts, which you can use as fuel, but this happens very slowly, especially considering that Thorium is a rare ore in the Nether, even if each ore block gives 4 crushed dust. The reality seems to be that fast Uranium only happens when you can mine from t2 planets, but this is not the only way. There is a secret, and this secret involves IC2 crops.<br/><br/>How does it work? Well, it's simple. The IC2 crop that corresponds to Thorium, the God of Thunder, can quadruple each Crushed Thorium Ore into 4 Purified Thorium Ore, but it also outputs, in fluid form, one Uranium Ingot! This means that each Thorium Ore gives you 4 Uranium Ingots, and with around 42 ore, you can do one cycle of that big reactor setup. God of Thunder needs the ore under it, though, so make sure you save some for that purpose.<br/><br/>EV Uranium nukes are an achievement intended mostly for IC2 crop users, so this quest won't demand something like that. Still, it's a useful secret, so here it is. Additionally, the Uranium crop quest in the questbook awards you with 32 Pitchblende when you complete it, which might prove useful for both for quadrupling Uranium and getting Radium for Radon!"
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAAMaQ==",
+      "data": "Assuming you have both the LFTR and the Fuel Refinery built, and the inputs for the fuel available to be used, you can power up the reactor and leave it running. The first fuel you can use will work with 4 IV Energy Dynamos to output 4 IV amps, as long as the reactor runs, and each cycle lasts for 100 seconds (you can see the recipes on NEI, there's a tab dedicated to the 3 fuels the LFTR can run and what you get from them).<br/><br/>What about everything else? The entire setup has 2 inputs and 4 outputs. One of the inputs is any of the 3 possible fuels, the other input is Lithium Tetrafluoroberyllate (LTFB). On the output side, there's one constant: U233 is output in small quantities at random, averaging 10 seconds per output. There are two other outputs, U Salt and UF6, that come from every fuel, although better fuels output more of these per cycle. Finally, T Salt or TB Salt can be outputted, the first from the first fuel and the second from the other two, with TB being more valuable than T. All of these are meant to be processed in order to reach better LFTR fuels, and also useful breeding byproducts.<br/><br/>Starting with the first fuel, every bucket of it will need 2 buckets of LTFB, last 1000 seconds and output a total of 655,536,000 EU at 32,768 EU/t. After this, you will have 367L of U233 on average, 250L of U Salt, 500L of T Salt and 5L of UF6. As you can tell, this is a slow burner, and one bucket of each of these fluids is worth a lot!"
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAAMVw==",
+      "data": "What a complicated name this is. What does it mean?<br/><br/>Well, it's what is called a molten salt reactor. The Liquid Fluoride part means that the nuclear fuel is actually a liquid, mixed in with fluoride salts. This is a mechanism that makes it more difficult to get the fuel ready for fission, but also makes the process more efficient, gives out more byproducts and also removes the danger of explosion. That's right, nuclear meltdowns are a thing of the past! The molten salt is designed to flow downwards into a hole where it solidifies, in case the reactor has problems, so it's impossible for the fission process to continue into an explosive mess.<br/><br/>There are three downsides, though. One of them was mentioned just above, the fuel needs more processing to be ready for the LFTR, and more input materials to reach the right mixture. After it goes through the reactor, it comes out as depleted, and this part too requires more processing steps, although it gives out a lot more useful chemicals than the single Lutetium/Plutonium the IC2 nuke depletion process gave. Lastly, the molten salt is very hot and very corrosive, which means it would destroy the materials used to build the IC2 nukes. You will need newer, stronger and more expensive materials to build a reactor, not to mention its much larger size.<br/><br/>The structure for this multi is truly something else. It has not one, but four required Dynamo Hatches, which should all be the Buffered type, either EV, IV or LuV depending on the fuel being fed into the reactor, with better fuels being unlocked at later progression stages. This means that one LFTR makes either 1 LuV amp, 1 ZPM amp or 1 UV amp while running. It also requires 2 Maintenance and 4 Muffler Hatches, when it has no maintenance problems or pollution output! Mysterious are the workings of this reactor.<br/><br/>Other than this, all the inputs and outputs are fluids. The minimum amount you'll need is 2 inputs and 4 outputs, although one of the outputs comes out over time, and not on recipe finish. This output is Uranium 233, a very rare isotope that can get you deeper into LFTR fuels and more power, hardly obtainable from any other source."
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAAMZw==",
+      "data": "Upon gathering more Plutonium, you can try building a MOX nuke, the most powerful of the basic nukes. It is a 6-chamber, like usual, and it takes U238 as before, but it outputs close to 6820 EU/t while only using 5 quad rods instead of 7. How is this possible? The answer is... MOX.<br/><br/>MOX means mixed-oxide, which is the name given to the mix of Uranium and Plutonium. In here, rods with this fuel are special in the sense that they don't output a specific amount of EU/t from the usual nuke mechanics. On top of those, it also reacts to the heat of the reactor, generating more energy the hotter it is. To compensate, these rods last only half the time that the Uranium fuel rods do, but their total EU is higher if they are active in very hot reactors. This imposes an obvious problem - hot reactors are not good for your base.<br/><br/>There is one standardized way of dealing with this: heat-neutral reactors. What this means is that the reactor's temperature does not change while it's active, because the components inside are not interacting with the reactor's temperature value, only with the value of other components like the fuel rods themselves. This limits the type of components you can use, and you'll find that Advanced Heat Vents are now required (the overclocked ones interact with the reactor itself). However, at the same time, you can use any fuel rod to heat the reactor up to a high temperature and then activate a setup of this kind, which ensures safety and efficiency in MOX nukes.<br/><br/>VAAV<br/>ARRA<br/>VAAV<br/>VAAV<br/>ARRA<br/>VAAV<br/><br/>A - Advanced Heat Exchanger (12 needed)<br/>V - Component Heat Vent (8 needed)<br/>R - Dual Fuel Rod of MOX (4 needed)<br/><br/>1200-2730 EU/t<br/><br/>(This setup is the most efficient per MOX fuel rod, if you're short on fuel, which you shouldn't be if you're doing a MOX setup)<br/><br/>AEAVPVAEA<br/>VARAVARAV<br/>AVAVAVAVA<br/>EAVARAVAE<br/>ARAVAVARA<br/>VAEAVAEAV<br/><br/>A - Advanced Heat Vent (26 needed)<br/>E - Component Heat Exchanger (6 needed)<br/>V - Component Heat Vent (16 needed)<br/>R - Quad Fuel Rod of MOX (5 needed)<br/>P - Reactor Plating (1 needed)<br/><br/>3000-6825 EU/t<br/><br/>(This setup is the most efficient per Advanced Heat Vent)"
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAAMeQ==",
+      "data": "Celestial Tungsten - from Advanced Nitinol + Tartarite. A GT++ material that can be made as plasma, at the very end of the plasma line. It provides a lot of power, but the material itself is useful for DTPF recipes, machine components and other things. Check the questline in How to Generate Power, starting at [quest]Welcome to the Plasma Chain[/quest], for more information.<br/><br/>Indium - from Lithium + Silver. This is a nice optional fusion recipe, given how annoying Indium can be to get. Your options are to either replicate it, make it with fusion, obtain it from the naquadria line, or obtain it from processing sphalerite ore.<br/><br/>(You can make Indium in other ways, of course, but this is a relatively popular, non-forced fusion recipe)<br/><br/>Oganesson - from Calcium + Californium. This is the best noble gas of them all, and a very power-hungry recipe compared to most. However, Oganesson will save you power on EBF recipes, reducing recipe time more than any other fluid, and it also boosts Void Miners to their maximum speed. Replicating it might be better, if you have the right setup with GT++ multis.<br/><br/>Americium - from Hydrogen + Plutonium 241. This is the cheaper Americium recipe that was promised to you in t2, and it no longer needs Lutetium. You should be able to get both of the inputs very easily, so enjoy your cheaper Americium!<br/><br/>Neutronium - from Naquadria + Americium. Neutronium fusion? It's quite fast, you might want to give it a try!"
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAAMUA==",
+      "data": "The most advanced nuclear technology there is to use in the pack is nuclear fusion. This is an event where two atoms collide with each other and fuse into a different atom while simultaneously generating energy from the plasma, when it is processed. It's impossible to perform in a reactor in real life, because the temperature requirements are too high to maintain any kind of reactor solid with decent efficiency. In GTNH, though, we have better materials.<br/><br/>The first Fusion Reactor can be built in late LuV, and each tier unlocks some material that is important to progress into the later tiers. Fusion crafting becomes important at that stage, for materials such as Europium, Americium, Neutronium and Oganesson, so you will want to dedicate reactors to specific things later on. More importantly, these materials come out as plasma, which needs to be cooled down to be turned into ingots and plates. On top of that, though, this cooling process is where you can get lots of power!<br/><br/>The usual process of power generation here is to pump EU into the Fusion Reactor. It needs enough energy to start the reaction, which will then proceed quickly and output good amounts of plasma. This plasma goes into Plasma Turbines, which output power and the cooled down material, ready to be used in further crafting. A beginner's setup can output 640,000 EU/t from one reactor before overclocking, and this grows quickly over time, although the options you have to consume the plasma quickly are limited until you get XL turbines. Your existing powergen might very well outpace this.<br/><br/>To summarize, fusion is required for progression because of the materials it produces. At the same time, it can produce power for you, depending on the plasma used."
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAAG2A==",
+      "data": "So controlling! Strangely enough, this part takes an HV circuit to craft; so here's some to make your first computer parts in exchange for MV circuits in their place. Don't spend them all in one place!"
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAAH0Q==",
+      "data": "The inventory relay can access the inventory of non-stationary entities, such as minecarts."
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAAG5g==",
+      "data": "I'll sell you a Network Card for six Bitcoins."
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAAJXA==",
+      "data": "To make Hydrogen Peroxide you combine Oxygen (or Air), 2-Ethylanthrahydroquinone, and Anthracene in a Chemical Plant.<br/><br/>[note]You can fully recycle the 2-Ethylanthraquinone, so don't make a bunch of it.[/note]"
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAAFtA==",
+      "data": "Every rocket needs fuel storage canisters. For the tier 3 rocket you need to craft two small and two medium canisters."
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAAFmw==",
+      "data": "The moon buggy needs a schematic. Place it in the NASA workbench and unlock it on the last tab.<br/><br/>[note]If you've made the chip in an older version, you can turn it back into a schematic in a PLE.[/note]"
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAAFrg==",
+      "data": "After days of hard work and a hundred tons of stacks of iTNT your third rocket is finally ready.<br/><br/>You need to use Dense Hydrazine Rocket Fuel or better to fuel it.<br/><br/>[note]In case you forgot to complete any, holding the rocket in your hand will unlock all pre-requisite quests in addition to this one.[/note]"
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAAF_w==",
+      "data": "After weeks of hard work and a thousand stacks of iTNT your fourth rocket is finally ready.<br/><br/>You need to use Dense Hydrazine Rocket Fuel.<br/><br/>[note]In case you forgot to complete any, holding the rocket in your hand will unlock all pre-requisite quests in addition to this one.[/note]"
+    },
+    {
+      "quest_id": "2qWr_EPxRGeqJE2NKQhb5Q==",
+      "data": "The Shuttle Legs are very useful, as they allow the Shuttle Rocket to land without any aid. I highly recommend you build them! §mYou don't have a choice anyway."
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAALmw==",
+      "data": "You shouldn't click on links from strangers! Although this sounds like clickbait it is true. From a certain point of view.<br/><br/>Use the (potential) force! And store energy that way. Simply construct a dam and flood vast areas with water. You may add energy to your storage by pumping more water into it or just drain it back into energy whenever you need. This works especially well with fluctuating energy sources like wind, water, and solar. Or you dump excess energy into it so you can use it another time. The capacity is huge and the choice is yours.<br/><br/>Sounds great! But...? - Indeed. There is a catch: Pumps and Turbines will have efficiency correlated loss. Still interested? Let's get to crafting!<br/><br/>The multi-block has an unusual shape: the back is open. The lake will spawn inside the multi-block and spread block-by-block as far as it can/is allowed. It will replace plants like water (make sure to secure your IC2 Crops!) but not replace any solid blocks. Additionally, you can specify limits in any direction. The water will NEVER spread past these limits. You can set those limits in a second GUI by right-clicking the controller with a screwdriver.<br/><br/>When you enter a limit, it will correct itself to the nearest valid setting. Especially if you try to spread past the server limits. You may talk your admin into raising these limits (these limits are designed to limit griefing). Further, water is not able to spread into foreign towns.<br/>You will also find 3 magical buttons in the top-right of this GUI. From left to right: The first will slowly despawn the lake blocks. You can use this to shrink the lake if it spread past a barrier for example. The multi-block will also initialize with this configuration so there is no accidental flooding. The second and third buttons will slowly spawn more lake blocks. Additionally, the second button will render those lake blocks pink so you see where they are so you may plug holes and such. In this \"debug\" mode you can walk/breathe/act in the lake like in air. This should make it easy to create a sunken village for decoration purposes. The third button is for normal operations so you can see the water and enjoy a swim in your energy buffer.<br/><br/>Of course, there is also a normal GUI (simple right-click). It shows you the energy stored in the dam. To reach higher water levels you are required to use stronger pumps. For this purpose, you may configure the voltage tier of the GUI with a circuit in the circuit slot. Don't worry: It is only optical. You cannot void any energy if you set a low voltage tier. It is only for the player information. You may give it a try with the reward you earn...<br/><br/>If you have any further questions, find missing information, or have suggestions please do not hesitate to post on the official GT New Horizons Discord. Please add '@SinTh0r4s' to your post to make sure I'll see it.<br/><br/>[warn]A warning though: there have been a lot of mentions of bugs and even world corruptions caused by the Hydro Dam. Use at your own risk. If you have more detailed information, please report these problems on the GTNH GitHub.[/warn]"
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAAKrg==",
+      "data": "It holds more than the previous tier, other than that there is no difference. Your LSC can hold between 540B and 8.1T EU with these.<br/><br/>[note]Requires EV-tier Glass.[/note]"
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAAKrw==",
+      "data": "It holds more than the previous tier, other than that there is no difference. Your LSC can hold between 5.4T and 81T EU with these.<br/><br/>[note]Requires IV-tier Glass.[/note]"
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAAHHg==",
+      "data": "Annoyed by building chains of transformers? Don't want an Explosion Risk at your base? Want to use these fancy 64A Hatches and Dynamos from TecTech to convert your power? Make a Manual Dynamo and convert it all!<br/><br/>[note]Also needs a muffler, energy hatch, and dynamo. Not guaranteed to work, wishing you all the best though.[/note]"
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAAE8w==",
+      "data": "These work the same as the LV ones, but 1 tier higher."
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAAASA==",
+      "data": "Rotors are also crafted using an identical pattern with different materials. A bit annoying to craft at the moment, but you don't need a lot of them anyway."
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAAGxw==",
+      "data": "Or at least factories full of item pipes. You can take items out of one machine using a hopper pointing directly into your pipes, and from there deliver them to a second machine.<br/><br/>Later on you can make better item pipes. Search for \"item pipe\" in NEI for options.<br/><br/>[warn]You'll need a Steel Wrench to remove them. Don't place them down unless you're sure of the location until you have one.[/warn]"
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAACLg==",
+      "data": "After you made your first steel, you are able to craft a small backpack. It has 36 slots, which is a bit more than a small chest. Later you can make it even larger.<br/><br/>You can have at most four of these backpacks in your inventory.<br/><br/>You can put one on your back and set it to automatically pick up stuff. In your controls, check that the command \"Open Backpacks\" has a key and doesn't have conflicts. The key only works after the backpack is added to the back slot, which can be done by using Shift+<Open Backpacks Key>.<br/>§r<br/>You can rename your backpack by pressing Shift+RMB when holding it in your hand."
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAAGAA==",
+      "data": "I've found a use for the Ectoplasm you can collect from spirits of the dead. It makes a very useful glass that you can walk on, but mobs cannot. However, they think they can!<br/><br/>So you can use this to create a moat around your base that drops mobs to the death in various ways, or just to shuttle them off somewhere else. Separate babies from mothers? Use it in a mob farm? Capture pigmen walking into the Overworld from your Nether portal? So many possibilities!"
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAAF4w==",
+      "data": "As your base grows, you're going to have a dozen different long term goals each with many steps. Build a clipboard to keep track of what you need to do.<br/><br/>[note]Hint: You can put the clipboard on a wall using shift-right-click.[/note]"
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAAAPA==",
+      "data": "This is basically just an upgrade to your current coal boiler, however it produces more than twice as much steam. Something you should consider building if you're planning to get some of the upgraded machines."
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAAARA==",
+      "data": "Steam machines are quite stupid, they just do one thing over and over again. As you advance into the electrical age, you've decided that you want the machines to have more features, like automatic output in order to create some automation. For that, you need electronic circuits."
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAAAHg==",
+      "data": "Copper ingots can be created by smelting copper, chalcopyrite, or malachite ore."
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAAB4Q==",
+      "data": "I guess you already turned some wood into charcoal and wonder what to do with all this creosote? Well, you can burn it in a normal Furnace to cook your food or anything else, or you can make some torches with it. You can save up on the Coal variants, while at the same time keeping the Coke Oven running for the items you really need.<br/><br/>You can use an Iron or Clay Bucket to pick up the Creosote, either through the icon in the machine's interface, or by right-clicking the Coke Oven with an empty bucket in hand.<br/><br/>You will eventually want to automate Coke Ovens, and that's when you can use it to generate power. This is mostly LV content, but the singleblock option is the GT++ Semifluid Generator, whereas the multiblock option is the Railcraft Liquid Fueled Boiler. You'll unlock the quests for these when the time comes."
+    },
+    {
+      "quest_id": "kR1YVSq2R4WFu9KNM9lCZQ==",
+      "data": "NEI search got improved even further!<br/><br/>Select a search mode extended+ to try it out!<br/><br/>Extended+ works pretty much like extended, but it doesn't support * and ? expanding in the names. Also the following symbols have to be escaped with a `\\`: `-` (dash) `<` and `>` (less-than and more-than) `^` (caret) `{` and `}` (curly brackets) `|` (vertical bar) `\\` (backslash) ` ` (space) `\"` (quote) alongside with the prefixes that you have enabled like §5@§r or §b$§r.<br/><br/>Examples: §5@§oElectro\\-Magic§r, §oiron\\ ingot§r, §oPB\\&J§r.<br/><br/>Extended+ adds some QoL to your everyday search experience and an improved recipe search (next quest). In the following backticks `` are used around the search queries. You don't need them when searching.<br/><br/>Want to search for something without having to put a backslash before every other symbol? Use quotes! You could use a quote inside quotes too, but you would have to escape it. Like this: `§6\"§r\\\"§6\"§r`.<br/><br/>Use curly brackets §7{}§r to group conditions. Searching for `§7{§rmytryl§7|§rmanasteel§7}§r hammer head` would show you hammer heads made out of mytryl or manasteel.<br/><br/>Space is no longer necessary to use. So `§7{§rmytryl§7|§rmanasteel§7}§rhammer` works too!<br/><br/>There's a space mode support, so if you want your spaces to work literally turn it on!<br/><br/>Quotes no longer require a closing quote. So you could search for `§6\"§riron ingot` and it would work! You still do need a quote if you want your quotes to end though.<br/><br/>Regex syntax got simplified (though the old one is still supported). Now instead of `§br/§rsome regex§b/§r` you could search for `§b/§rsome regex` and it would work too! You still do need a slash if you want your regex to end. Regex doesn't require escaping, the same way quotes don't, with the only exception being the `/`. So to find a slash with a regex you would search with `§b/§r\\/`.<br/><br/>You can use quotes or regex after prefix to search with them instead of a plain text. For example, use `§5@§6\"§5chest minecarts§r` to search for items from the §9Iron Chest Minecarts§r mod. Or `§5@§b/§5chest minecarts§r` to do the same with a regex."
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAAB7A==",
+      "data": "Killing sheep to get the wool is so inefficient. Making some shears would make sense if you need more wool."
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAAGyg==",
+      "data": "...the whole world looks like a nail. <br/><br/>When looking for good tool materials, see \"GregTech Material Tools\" tab in NEI. Remember that NEI bookmarks are your friends.<br/><br/>The GT tools each have special uses.<br/><br/>§lScrewdriver§r - Used on covers to change their behavior or on machines to change their input mode.<br/><br/>§lWrench§r - Used to change the output direction on a GT machine, or to break it. Can also disconnect/connect pipes or enable their built in shutter.<br/><br/>§lCrowbar§r - Remove covers from machines or pipes.<br/><br/>§lWire cutters§r - Connecting/disconnecting/breaking wires/cables.<br/><br/>§lSoft mallet§r - Turning machines on/off.<br/><br/>§lHammer§r - Prospecting for ores in a limited way in front of you, smashing ore blocks into crushed ores, and muffling machine sounds.<br/><br/>§lPlunger§r - Drain fluids from a machine or tank<br/><br/>[note]On a side note, Tin Pipes need a Steel Wrench to dismantle, so don't place them randomly, and pay attention to material levels![/note]"
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAAAKA==",
+      "data": "As you've gathered and crafted all materials and tools you need for your basic steam machinery, you may now proceed to the next tier. Keep in mind that you'll need mountains of resources in order to craft even the simplest things, so you probably should stock up on all ores in this tier. But that's up to you.<br/><br/>As a special reward, you get a pair of Holo Glasses to look inside your inventories. Place it into the mask slot, and use the keybind to turn it on.<br/><br/>[note]Tip: If you double-click the NEI search field the resulting highlighted search also applies to what you can see with your Holo Glasses![/note]"
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAAKFA==",
+      "data": "Able to kill anything, in one hit except another player in full infinity gear. Essentially runs the /kill command on the entity you hit."
+    },
+    {
+      "quest_id": "g0oiNbRuQpWrzFOS8l-DtA==",
+      "data": "With the project finally completed, and a new material capable of harnessing the power of a neutron star, you decide the natural first application of this immense power could be used for a far superior Blast Furnace. With a little tinkering, you decide a second may be necessary, since this module could easily be retrofitted into an ordinary Furnace as well.<br/><br/>[note]The first module of the Godforge, Helioflare Power Forge can perform EBF recipes and Furnace recipes in separate running modes, toggleable in the UI. Note that the Furnace mode does NOT contribute towards the Conversion milestone![/note]<br/><br/>[note]Usage of this module requires the START upgrade.[/note]"
+    },
+    {
+      "quest_id": "0YrjX7i4QfeSo98gSE0SWg==",
+      "data": "Using large quantities of graviton shards creates regions of space so extreme that exotic forms of matter can exist with far greater stability than usual. Unfortunately, this region is so extreme that it is essentially spatially disconnected from the rest of the Forge, unable to utilize existing upgrades to the structure and its other modules.<br/><br/>[note]The fourth and final module of the Godforge, Heliofusion Exoticizer allows for the production of Quark Gluon Plasma and Magmatter. Initially only Quark Gluon Plasma is possible, with Magmatter requiring a much later upgrade. Consult the Godforge Information section of the UI to read how to produce these materials.[/note]<br/><br/>[note]Usage of this module requires the QGPIU upgrade.[/note]"
+    },
+    {
+      "quest_id": "mr9r3y_kQbWxO2Gm_RvEIg==",
+      "data": "As understanding of graviton shards continues to improve, better control over the materials they manipulate can be achieved. Graviton shards provide an alternative to electromagnetic containment of plasma using spacetime manipulation instead, allowing the Forge to directly output processed materials as plasma.<br/><br/>[note]The third module of the Godforge, Heliothermal Plasma Fabricator can directly convert materials into their plasma form, at the cost of an immense amount of power. This may not be ideal for every plasma, but can save a lot of time on particularly slow ones. Additionally, later upgrades allow the creation of exotic plasmas which cannot be created through other means.[/note]<br/><br/>[note]Usage of this module requires the GPCI upgrade.[/note]"
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAAJbQ==",
+      "data": "<br/>In order to get to the riches you rightfully deserve, you'll first need to make a Raw Portal, then complete it with more materials. You can then access this dimension that should contain every ore imaginable...<br/><br/>[note]Unfortunately, those tasty ores are locked beneath the mantle of the planet. You'll need to use a Void Miner to get them out.[/note]<br/><br/>[note]This should help with the Tartarite problems due to Proto-Halkonite Steel Base.[/note]<br/><br/>[warn]If there is ever an ore that you need but cannot find, it's guaranteed to be gatherable from this dimension.[/warn]"
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAAMqg==",
+      "data": "Pico circuits, a direct upgrade from Optical Mainframes, these UMV circuits will be required for a lot of future crafts.<br/><br/>[note]You will need an UMV powered Assembly Line to get started.[/note]<br/><br/>[warn]Rumor has it these circuits may not be around for much longer...[/warn]"
+    },
+    {
+      "quest_id": "kazCPEWoSmiZhR4bkHlEBQ==",
+      "data": "So you have made yourself an Eternal DTPF or hopefully a few, and now it is time for the push to the next tier, UXV.<br/><br/>Introducing the final multiblock in the game, and by far the most expensive.<br/>It introduces 4 new materials: Raw Stellar Plasma, White and Black Dwarf Matter and finally Universium.<br/><br/>It has 3 different tiered casings with 9 tiers each:<br/><br/>Spacetime Compression Field Generator:<br/>- Determines the tier of the planet block that can be run and decreases the processing time by 3% per tier.<br/><br/>Time Dilation Field Generator:<br/>- Decreases recipe time by 50% per tier, while decreasing the chance of a recipe succeeding by 9.25% per tier.<br/><br/>Stabilisation Field Generator:<br/>- Increases the chance of a recipe succeeding by 5% per tier, while decreasing the output of a recipe by 5% per tier.<br/><br/>Lower tier Stabilization Field Generators have a power output penalty.<br/><br/>Finding the best setup of different casing tiers might be a hard task, so a calculator visualizing all the drops and setups has been created: [url]https://docs.google.com/spreadsheets/d/15j30mNnFIWBhwpJGuDrKTfiHBXNEEqyvB_r7ztFWlyQ[/url]<br/><br/>[note]Be sure to read the tooltip of the Eye of Harmony controller, it explains everything in detail! Depending on your GUI scale it might have multiple pages.[/note]<br/><br/>[note]Well... it explains mostly everything. The Eye of Harmony has an inbuilt pity system to make sure you don't lose your mind. Here's a quick rundown on how it operates:<br/><br/>(All chances are decimals here)<br/>There is a counter C that starts at the current recipe success chance P. If a recipe fails, (1-P)*P is added to C. If C reaches >= 1, the next roll is guaranteed to succeed and C resets to P. <br/>If a recipe succeeds before C reaches >= 1, it resets in a similar manner.<br/>If you switch recipes, C will be reset to P of the new recipe, even if the next roll would be a guarantee.<br/>The guarantee can be canceled out by overflow penalties as they apply after the pity does. However, they do not reset C, so the guarantee is shifted to the next recipe cycle.<br/>If parallels are > 1, pity doesn't apply.[/note]<br/>"
+    },
+    {
+      "quest_id": "Qjg1J4kuS-6937dCEUqHUw==",
+      "data": "As additional rings are placed closer to the star at the center of the Forge, the gravitational stress drastically increases on the structure. Graviton shards alleviate these stresses while also creating localized spacetime bridges to link the two rings and their modules' respective upgrades.<br/><br/>[note]Adding a second ring to your Godforge allows for 4 additional modules, as well as allowing you to pick a second path in the split paths part of the upgrade tree.[/note]<br/><br/>[note]Usage of a second ring requires the CD upgrade.[/note]"
+    },
+    {
+      "quest_id": "U7Ta5d7PSii76sbIPbltlw==",
+      "data": "With total mastery of the Forge of the Gods achieved, it is possible to begin a new universe-spanning initiative. It is now possible to quantize and extract graviton shards for use outside the Forge in powerful new technological endeavors; produce the most exotic plasmas beyond merely periodic elements; and most importantly, begin to understand the immense power of magmatter, a form of matter made entirely of magnetic monopoles with density and stability billions of times that of conventional bosonic matter. It is with this development you realize that the completion of the Forge was not the end goal, but merely a stepping stone to universal transcendence.<br/><br/>[note]Required for UXV components, Magmatter is the second material the Heliofusion Exoticizer can create, and will require a second module. Read the Godforge Information in the UI for more information on how to automate this.[/note]<br/><br/>[note]The creation of Magmatter requires the END upgrade.[/note]<br/><br/>[note]Congrats! You can now move on to the UXV tier![/note]"
+    },
+    {
+      "quest_id": "o8_pX-OSRJKBGzDsGujvNw==",
+      "data": "A helper material needed in some UMV and UXV components. Have fun making millions.<br/><br/>[note]This is extremely slow to make and to process.[/note]"
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAALow==",
+      "data": "If you make some Double Aluminium Plates, you can make a new 96,000L single block tank."
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAAAdg==",
+      "data": "Monsters spawning in or near your base can be annoying. Especially if you happen to get infernal creepers. Luckily, there's a good way to prevent them from spawning at all."
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAAF5g==",
+      "data": "Tired of searching all over the map for that Bamboo Forest or Tropical Rainforest? Desperate for clay dust and need to find a Canyon or Mesa biome? Nature's compass will lead you to the biome you're looking for, if it's within its range.<br/><br/>The compass menu has the following functionality:<br/>* When Sorted By: Name, you can filter the list by name or its parts. The search is case-insensitive.<br/>* You can search by keys and their combinations. For instance, name: bamboo, climate: warm, bh: -1.8, tag: forest.<br/>All available keys are:<br/>name,<br/>climate [hellish, hot, warm, normal, cold, icy],<br/>baseheight | bh (float, can be negative),<br/>heightvariation | hv (float),<br/>rainfall | rain (float),<br/>temperature | temp (float),<br/>humidity [damp, normal, arid],<br/>tags.<br/><br/>Some things to keep in mind:<br/>* Biomes from other dimensions show up on the list, don't bother searching for those unless you're in that dimension.<br/>* In general, the full list has biomes that are not generated by Realistic World Generator, like Sunflower Plains.<br/>* Radius 10000 means it couldn't find the biome. In this case after the initial search, its menu will show only the biomes in the 10k radius. Use Shift+RMB to see the whole list again.<br/>* You can try again at a different location - the range is 10k from your current position.<br/>* Artificially created biomes count, so remove them if you want to find a natural one.<br/>* There's lots of different 'versions' of biomes under the same category, so if you want a tropical one for tropical bees, there are actually a bunch of places you can get it.<br/>* For those who don't mind the freeze when searching, the radius can be changed in a config. The HUD position can also be changed in the config."
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAAEQw==",
+      "data": "After you build a cutting machine you can make some diamond plates for your new 64,000L single block tank."
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAAE_w==",
+      "data": "Firestone ore is used to make some BC machines like the filler, and some other stuff. Unfortunately, it's in the nether...at the bottom of the lava ocean!<br/><br/>Here are some tips for finding it:<br/><br/>-Firestone only spawns in deep lava, at least 6 deep. It will only replace netherrack, so a fjord filled with soulsand won't have any. Can you think of ways to check the lava depth, and what's down there?<br/>-Alternatively, if you keep your head at just the correct height above the lava and at the correct angle, you'll be able to see underneath it - surely there must be a hovering jetpack?<br/>-...or just look for the biome when your cursor is over the JM map. Hell is the default one that has netherrack.<br/><br/>Firestone can be mined with the GT miners, if you place it within horizontal range. Firestone ore and products will cause random fires to start nearby, so get it into a backpack quickly!"
+    },
+    {
+      "quest_id": "JRrD8MoLRuCHCD-fFpeNvQ==",
+      "data": "A feat of human engineering at your disposal!<br/><br/>This machine allows you to filter 9 items, and will only output set batches. This allows you to automate processes such as electrolyzing that require different amounts of inputs that may clog the system otherwise.<br/><br/>[note]This will be particularly useful in MV once you unlock more electrolysis recipes![/note]"
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAACJQ==",
+      "data": "By adding Hydrogen to Sulfuric Light Fuel in a Chemical Reactor you can produce Light Fuel with the very high burn value of 305,000 EU per cell. It is also the main component of Diesel, an excellent fuel that becomes available in MV<br/><br/>The remaining Hydrogen Sulfide can be used to produce Sulfuric Acid for, well, tons of stuff. You can never have enough of it! You can also crack Light Fuel in a Chemical Reactor and then distill it to get Ethylene, for Polyethylene. But Refinery Gas is better for that."
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAAAZQ==",
+      "data": "Not really required, but it is a lot faster than the steam one and it can be automated. If you feel like ore washing is too slow, use this hammer.<br/><br/>[note]You can also consider using the steam multiblock instead if you want.[/note]"
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAAGPw==",
+      "data": "Nodes can take many upgrades. For now, try building a World Interaction Upgrade. With it, you can set up simple autocrafting.<br/><br/>Put a WIU in a transfer node attached to a crafting table. On the other side of the table, the 3x3 area is now treated as a crafting grid. Place items in inventories on the other side and if they make a valid recipe, the WIU will craft it. To speed it up, you will need to wait until HV for stainless steel.<br/><br/>Also, if you place a node on a block of cobble that has lava and water next to it, and a WIU in it, it will produce cobble for you automatically. Use upgrades to get more at a time and faster.<br/><br/>[warn]The WIU can NOT be used for infinite water in GTNH.[/warn]"
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAAAYg==",
+      "data": "Why waste a full ingot to make a rod by using a tool which loses durability and takes even MORE ingots? With this little device, all your rod-needs shall be fulfilled (for now at least, the MV Extruder is the next step for rods)."
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAAG_w==",
+      "data": "Oilsand is another way to get heavy oil. Maybe you got lucky and found some in a mountainous biome. With your centrifuge you're able to get heavy oil and sand out of the ore. The veins can be found between Y 50-80.<br/><br/>Sadly, you can't use heavy oil until MV, so just stick them in a barrel or something until then.<br/><br/>[note]Until MV it can only be used for lubricant and burning in a semifluid generator.[/note]"
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAAH3g==",
+      "data": "Sometimes you don't want a 3x3 area chunkloaded, but a long straight line instead. This can be handy for rail lines or power lines going across long distances. An anchor sentinel can perform this function. Right-click on a chunk loader with a crowbar, and it will activate. Go in any straight line from the chunkloader and place the anchor and hit it with the crowbar. Those chunks, up to 25x1, will now remain loaded.<br/><br/>This will draw an amount of chunkloader time relative to the 9 chunk area normally loaded. If for some reason you wanted only a 1 chunk area loaded, this will extend the time. Stock up on those pearls or server coins!"
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAADBg==",
+      "data": "If you want to save the environment you can autoclave 16 plantballs to get raw bio fiber with the following liquids:<br/><br/>Biomass        33% chance<br/>Methanol       50% chance<br/>Fuel            90% chance<br/>Nitro-diesel 100% chance<br/><br/>§rHowever, making carbon plates this way will require an electric blast furnace."
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAAAhg==",
+      "data": "Probably the most awesome way to transport just about anything in multiple different ways. Get some conduits of each type. Higher tiers of each (except item) exist.<br/><br/>[note]There's also ME conduits for when you can do that.[/note]"
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAAEyg==",
+      "data": "Glycerol is a byproduct of making bio diesel, but it's really useful too. It's used to make epoxid in EV, and for making dynamite, I guess. Both TNT and iTNT are better though.<br/><br/>[note]PS: You don't actually need dynamite, and epoxid can be made another way, if you don't want to make bio diesel forever/at all.[/note]"
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAAAlg==",
+      "data": "The lowest tier of renewable, burnable fluid. Generates 60 RF/t, but can be automated for \"green\" infinite power."
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAALnw==",
+      "data": "The most efficient way to process Ruby Ore. Better than electrolysis.<br/><br/>[note]Check out NEI for similar processes based on Sapphire and Green Sapphire.[/note]"
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAAC8g==",
+      "data": "Some materials like stainless steel require 480 EU/t. Your LV hatches are not good enough. Craft a minimum of two MV hatches to upgrade your electric blast furnace to HV.<br/><br/>[note]BTW, if a Multiblock's recipe is 1EU over 1A for that tier, you must use a second energy hatch for it to use 2A or more.[/note]"
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAAHTA==",
+      "data": "MV Energy hatches need ultra low power ICs. Go and craft some."
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAAExQ==",
+      "data": "EV circuits need an MV Circuit Assembler, so make one.<br/><br/>[note]Shortly after this, all circuit recipes will need a cleanroom, so get started on it![/note]"
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAAAlw==",
+      "data": "Of course... zombies love that... disgusting liquid (nutrient distillation). While using a small amount per hit, he will attack everything that is within his range with a weapon you give him. That also includes players, so be careful. Rumors are there might be a weapon that will never break when used in this \"machine\"...<br/><br/>[note]BTW you need to be at > 75% to run it.[/note]"
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAAE0Q==",
+      "data": "Ender eyes are available at HV in the chemical reactor. Combine some ender pearls with blaze powder."
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAAE1w==",
+      "data": "NAND is used for data sticks, data orbs, and UV circuits. NOR chips are needed for data orbs and LuV circuits. You can get these by cutting NAND and NOR wafers. Just worry about the data sticks for now."
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAADrw==",
+      "data": "There are a number of chemical recipes that are unlocked with an §5HV Chemical Reactor§r; you will finally be able to make Ender Eyes, Ammonia, Gelled Toluene, and plenty of other useful components. <br/><br/>Alternatively, if you're up for it, you can head over to the Mass Processing tab and build yourself a §5Large Chemical Reactor§r (LCR) instead! In addition to having a more efficient overclock, the LCR can input multiple liquids so you won't need to mess with those pesky cells any longer. <br/><br/>[note]If you choose to go the LCR route, be sure to take a look at the PTFE questline just ahead of this one, starting with \"Teflon Don\".[/note]<br/>"
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAADBA==",
+      "data": "You'll use this a lot to make high tier circuits, and for other recipes.<br/><br/>[note]You'll soon find that everything you use the PLE on needs a cleanroom, so make sure you start on that.[/note]"
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAAE0A==",
+      "data": "Some machines need emitters and sensors, like the analyzer or the circuit assembler."
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAAAuw==",
+      "data": "Phobos has new ores, go get them!<br/><br/>[note]Honestly, aside from the dungeon, Phobos has all the ores you need.[/note]"
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAAFfg==",
+      "data": "An EV assembler is required to make lapotron crystals, coils, and other stuff."
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAAE4A==",
+      "data": "This is the Nano Processor circuit line. Similar to the previous circuit line, these are four circuits. The §onano§r circuits go all the way to the LuV-tier Nano Mainframe."
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAAI_Q==",
+      "data": "Ammonium Chloride is used to precipitate the dissolved Platinum into a purer form, you'll need some of this."
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAAI-g==",
+      "data": "What, recycling? That's lame. I just wanna void this stuff! - is what you might think right now, but be aware that Platinum Salt still holds a high concentration of Platinum. We can recycle it to get even more Platinum out of it!<br/><br/>You need to sift it to get Refined Platinum Salt. You only have a 95% chance to get a dust."
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAAMAg==",
+      "data": "Your good old singleblock Molecular Transformer is gone. So how to obtain Sunnarium? Well there are a couple of ways, but at EV you'll need to radiate Glowstone and convert to Sunnarium.<br/><br/>The Glowstone rod will slowly charge up if you put it next to any fuel rod in your IC2 reactor. The exact charging speed is (number of rods adjacent) * (floor(hull temperature/3000) + 1) per second. A dual rod will count as 2 rods and quad fuel rod will count as 4 rods for this purpose. The Glowstone rod will neither emit heat, nor cause other component to emit more heat. You can treat this rod as a reactor plating in the IC2 Reactor Planner.<br/><br/>As you can see, the speed is directly proportional to hull temperature and rods adjacent. At the very extreme you can fully charge up a Glowstone rod in less than half a minute and output one Sunnarium every 10 second (on average, since cells aren't charged at same speed due to different position), but that require very considerable resource to set up. It also involves a vacuum freezer to cooldown the coolant cells and running the reactor at 66000+ hull temperature. Balance your need and your resource situation wisely. In any case, if you just wish to charge it up FAST then here is a possible string for the IC2 Reactor Planner:<br/><br/>erp=bpO50cpsdtJElVqn4hObFJc0tiOE0JpEHYpqTxJHvyezjSKRjUuwgouXzNOlU4a3hFBRygM=<br/><br/>Replace Containment Reactor Plating with actual Glowstone rods and you should be good to go. You can also use fewer reactor chambers by using less plating. Enjoy!"
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAAJFw==",
+      "data": "Place your solution in your Chemical Reactor to heat it while it spins. That way you get a dust out of your Solution, 100% lump free!"
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAAMCg==",
+      "data": "Monazite europium?<br/><br/>Unfortunately you won't be able to process it until you actually have some actual europium, so just hold onto this for now."
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAAKaw==",
+      "data": "You have been using a very basic soldering alloy for a while now. Time for an upgrade! You will need it in your Assembly Line."
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAAL-A==",
+      "data": "Here you have two options: Either you can mix some water with your nitrated mixture for relatively low yield, or you can mix it with the cerium-containing mixture you get from ores for double the amount."
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAAL9w==",
+      "data": "You'll need to add even more nitric acid to be able to deal with the dust further."
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAAJDQ==",
+      "data": "Since you have concentrated your solution, it's now time to gather the solid Osmium from it. Go ahead and mix it with Hydrochloric Acid."
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAAJAw==",
+      "data": "Hmm, the sifting did well, you lost a lot of impurities, but also, new ones from the sifting grates are there... Time to filter them out with water."
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAAGlw==",
+      "data": "To make these chips you need Europium, as well as an HV Autoclave in the Asteroids dimension (or on your space station) to achieve \"low gravity\".<br/><br/>[note]Alternatively you can use an Industrial Autoclave.[/note]"
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAAKMQ==",
+      "data": "If you want some of this highly mysterious material, you'll need to go to Enceladus and collect some of those crystals lying around everywhere and macerate them. Or grab some Ice with a shovel and get the Dust out of it. You can also turn the dust back into Unknown Crystal Shards with an Autoclave if you need those."
+    },
+    {
+      "quest_id": "9dt9i3MYRa-NB6KROtAYFA==",
+      "data": "Now that you've completed the Netherite line and successfully set up your Mk1 Fusion Reactor, you finally have access to §5§lBoron Plasma§r, which is necessary for creating all of the different §4§lNetherite materials§r. <br/><br/>These will be important for the rest of the game and are used often in a variety of items and materials, so it's important to make upgrades to your line both in terms of power and recipe usage as you continue to progress through the tiers.<br/><br/>[note]UHV power and the QFT are the biggest milestones in terms of recipe upgrades for the line.[/note]<br/><br/>[warn]You must use a High-Current Industrial (Plasma) Arc Furnace, a regular one isn't powerful enough.[/warn]"
+    },
+    {
+      "quest_id": "P_nO8frbRM2c-MLKAaJUkw==",
+      "data": "§4Netherite Nanoparticles§r can be made from §5§lMacerating§r your newly attained Brittle Netherite Scraps.<br/><br/>[note]Almost seems too easy doesn't it?[/note]"
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAALaw==",
+      "data": "Fluorine is one of the most important resources. You can recycle most fluorine from it."
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAALdQ==",
+      "data": "You have two options to deal with it.<br/><br/>1) React with Sodium Dust in a chemical reactor.<br/><br/>2) Mix it with Indium Phosphate Dust in a mixer."
+    },
+    {
+      "quest_id": "nx7KEyhlTc6qYVM1vImkBA==",
+      "data": "§nOne§r of the ways you will be using the Poor Nether Waste is to combine it with the Hellish Mud you obtained earlier in the §5§lMixer§r to create §4Rich Nether Waste§r. <br/><br/>We will be using the Rich Nether Waste for the next step, and it will continue to be valuable for a while, though it does eventually become unecessary to the line when you reach §4§lUHV."
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAALfA==",
+      "data": "IT COMES BACK AGAINNNNN? ! ! !<br/><br/>[note]You can find out more about the Neutron Activator and the Precise Assembler in the Multiblock tab.[/note]"
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAAKdg==",
+      "data": "If you want to color all those fancy cables and such, you'll want to use the humble Paintbrush. To uncolor them, use a bucket of water.<br/><br/>Alternatively, you can also use the IC2 Painter, GT Spray Can, or the AE2 Color Applicator.<br/><br/>[note]The buildcraft paintbrush and GT spray cans can now color many cables or pipes in a row with just a single click![/note]"
+    },
+    {
+      "quest_id": "zIDk7MniRMGE9u_1Slo2qg==",
+      "data": "Woah, a new metal?<br/><br/>By combining the forces of your newly created §2Enriched Naquqdah§r and §2Prismatic Acid§r in the §5§lAlloy Blast Smelter§r, you find that a new metal forms; §3Prismatic Naquadah§r. <br/><br/>[warn]This extremely strong, yet shockingly pliant material will be used in quite a few different structures and materials going forth.[/warn]"
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAAKNA==",
+      "data": "Just Make It ™.<br/><br/>[note]PS: You can make the ZPM CA now and start on the wetware line if you want, but the quests are in UV since you can't make the last circuit until then.[/note]"
+    },
+    {
+      "quest_id": "yo1cuNvYSU2JAczbJLAfjg==",
+      "data": "We can process Crystal Processing Units in a Laser Engraver to get the Crystal SoC. But as our demand for circuits gradually increases, this method of production is becoming untenable. We need a more advanced way to mass produce Crystal SoCs!<br/><br/>For that we use a new material, Cerium-doped Lutetium Aluminium Garnet (Ce:LuAG). LuAG has better performance when making Crystal SoCs - in fact it is a laser crystal material.<br/><br/>First, mix Lutetium, Aluminium, Oxygen, and a little Cerium to get the material blend. Then put the blend with Molten Lutetium into an Autoclave to get a regular LuAG gem. If you have already got Oganesson you can also directly use that. As the second step, use the LuAG gem and more of the blend to produce Exquisite LuAG Gems.<br/><br/>After you get the first gem, you can also use your Autoclave to grow crystals. Using the Vacuum Furnace might be a better choice to produce Exquisite LuAG Gems.<br/><br/>Lutetium, Lutetium, it needs a lot of Lutetium. How will you get a lot of Lutetium? Check out the Powerful Nuclear Physics quest tab!"
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAAKSQ==",
+      "data": "You need Quantum Power ICs for UEV -> UIV and UIV -> UMV transformers, and UHV Hatches and Dynamos.<br/><br/>[note]You'll need a UHV Cutting Machine, or an OC'd multi to actually cut the wafers.[/note]"
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAAEsw==",
+      "data": "While one reactor is nice and all, why not make another? This time you can use the MK3 americium recipe to make it easier.<br/><br/>Costing just 1 ingot of Plutonium, and 2 cells of hydrogen, this recipe is much easier and faster than the MK2 version. By making americium plasma, then putting it through a turbine, you will get americium in the liquid state. You will need at least 132 plates for the controller and the fusion machine casings.<br/><br/>Plus, free power!"
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAAKdA==",
+      "data": "Now that you have Infinity, you can use the Avaritia Neutron Collector to get Piles of Neutrons. It does not use any power.<br/><br/>[note]Warning: This machine is extremely slow, so you might want to use something to help with that...[/note]"
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAAKcg==",
+      "data": "The next material is Infinity Catalyst. Infinity Catalyst needs to be compressed with insane amounts of force. The only machine capable of doing that is a Neutronium Compressor. Check out the Neutronium Compressor quest in Multiblock Goals.<br/><br/>To make the Catalyst, go to Vega B to get the dust. Then use the Neutronium Compressor to make Infinity Catalyst with 64 of the dust.<br/><br/>You can also do the insane Avaritia recipe to make the Infinity Catalyst, if you want a challenge :P<br/><br/>[note]The compressor can also be used to make singularities, culminating in the Eternal Singularity, used in the alternate recipe.[/note]<br/><br/>[note]If you want to automate singularity creation you can just click with the middle mouse button to modify the number of items in a pattern beyond the normal limits.[/note]"
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAAKOA==",
+      "data": "Welcome to Highly Ultimate Voltage... you're starting to get near the late game. In this tier you will use Cosmic Neutronium to create strong parts, and eventually start making your very own Infinity. You will gain access to some very powerful Quality-of-Life tools during this chapter.<br/><br/>[note]Oh, and... have fun with Xenoxene![/note]"
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAAMsQ==",
+      "data": "Let's make a brand new plastic! The trees that you found on Barnada C have very interesting properties. Still, you can't just use the extracted radox substance raw. Some serious refining steps are in order!<br/><br/>§6You'll need it for a ton of stuff like UIV and UMV superconductors, UEV+ hatches, or parts of the Dyson Swarm.§r<br/><br/>Compared to the previous plastics, most of the steps required here are not chemical reactions. They are also very slow, so you might want to use a mega multiblock to help with that. This production line also underlines the necessity of large-scale plasma production. You will only need more going forward.<br/><br/>[note]Super Heavy Radox will be needed for Dimensionally Shifted Superfluid, so store some for later.[/note]<br/><br/>[note]The Heavy Radox you get as a byproduct can be used for MkV Naquadah Fuel.[/note]"
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAALDw==",
+      "data": "This quest goes over all of the covers, just in case you forgot or they weren't mentioned. If they have their own quest, look at it for more info. You can put them on basically any GT block, pipe, machine, tank, etc. Though that doesn't consider whether it will work right or be useful. Shift-right-click will open a GUI for many of them. For covers that you can adjust the amount of, clicking the left side with a screwdriver goes down, and right goes up. All covers block rain on the side they're attached to. Generally you can adjust covers with a screwdriver, whether they have a GUI or not. You can remove them with a crowbar if you forgot.<br/><br/>§lFluid-Related Covers:§r<br/>Pump: Transfers fluids at the speed specified on the tooltip.<br/><br/>Fluid Regulator: Regulates the rate that fluid can go through it, as well as pumping it. Can work x/s or x/t.<br/><br/>Steam Valve: Moves more, but is only for steam. Only goes to IV. Does not work on SH steam.<br/><br/>Overflow: Voids anything over the specified amount in the tank.<br/><br/>Fluid Detector: Will emit a redstone signal (RS) based on fluid fill rate of the tank it's on. By default, empty=15, full=0. Use inverted mode to swap. Useful on tanks and hatches.<br/><br/>Ender Fluid Link: Cover version of ender tanks to TP fluid around. Doesn't connect to ender tanks though.<br/><br/>Drain Module: Protects from rain on that side, and will fill the tank with water from rain if it can. Useless.<br/><br/>Fluid Filter: Filters fluid going through it. Click with a cell to set it.<br/><br/>Shutter: Blocks items/fluids when active. Use it with a machine controller and RS. Does not visually disconnect/block. You place it between the pipes, and put the MC on the same pipe.<br/><br/>§lItem-Related Covers:§r<br/>Conveyor: Sends items. Use an item pipe in import mode or on a GT block/machine.<br/><br/>Robot Arm: Sends from a specific slot in the machine it's on (internal) to another specific slot in a block next to it (adjacent). Keep going through numbers until you get it right, it seems to change per machine. If the output slot is full, it won't output. There need to be a valid block with slots to send to or the settings won't save.<br/><br/>Item Detector: Will emit RS based on item fill rate of the block it's on. By default, empty=0, full=15. Detects by filled slots, so doesn't work right with the super/quantum chests. Probably better for buses.<br/><br/>Item Filter: This one is work-in-progress that is not yet finished. Feel free to contribute.<br/><br/>§lEU-Related Covers:§r<br/>Energy Detector: Will emit RS based on EU fill rate of the batbuff/tank it's on. By default, empty=0, full=15. Make sure to set it to include batteries. Can also detect steam for some reason.<br/><br/>Power Pass Upgrade: Read the tooltip, then ask Bart how it works, he didn't bother telling anyone. He'll probably just tell you the code is the best documentation, just like the Tectech guys. May not actually be finished/work, either.<br/><br/>Tesla Coil/Tesla Coil Rich Edition: Use with the Tesla Tower to send EU wirelessly or something.<br/><br/>§lOther Covers:§r<br/>Player Detector: Detects players. About 10 block range. [warn]Currently owner/other is inverted on non-pipes due to some bug or another.[/warn]<br/><br/>Activity Detector: Detects either recipe progress or idleness. 0%=0 RS, ~95%=14 by default. In idle mode, idleness is 15, and is 0 when running by default.<br/><br/>Machine Controller: Turns machine on/off based on RS. Disable machine will keep it off regardless of RS state. Safe Mode only works on MBs. If a MB runs out of power, it will normally turn off, but a MC will turn it back on, continuing to void stuff. This will set it to the disable machine state instead. You will also get a notification. [warn]Safe mode is currently broken?[/warn]<br/><br/>Needs Maintenance: Emits RS if it meets the condition specified. Rotor=turbine?<br/><br/>Redstone Transmitter/Receiver (In/Out): OK, these things are confusing, so listen closely. First, set a frequency, either by using the GUI, or using the original way: right-clicking it with an item. Empty hand = 0, other items = their item ID. Be careful not to reset it to 0 by accident. Honestly, just use the GUI. You can set it to private or not, it's the same kind of thing as EnderStorage, so you don't blare RS across the server. Channel state = RS level.<br/><br/>RT(O) sets the channel state based on the redstone level sent from outside to the specific side. You can TP an RS from this to the RR(O).<br/>RT(I) sets the channel state based on redstone level that would be emitted from the machine itself. [warn]Always sends 15, so it's useless.[/warn]<br/>RR(O) outputs redstone level based on channel state. You can TP RS from the RT(O) to here.<br/>RR(I) controls whether a machine can work based on channel state, just like a machine controller cover does. If it has 0 RS, it stays off. At least 1, and it turns on. You send the signal from elsewhere with the RT(O).<br/>RR(I) can also be used in conjunction with other covers whose states talk about conditional.<br/><br/>IC2 Heat vents: Speeds up machines a tiny amount? Also looks neat. TODO: someone please look at the code to see what it actually does.<br/><br/>Crafting Table: Adds a crafting table to the block you can use. Mostly cosmetic.<br/><br/>Planks/Plates/Foils: Blocks I/O on that side. Use a screwdriver to set allowed types of stuff through. Blocks everything by default. Set the output to another side first to avoid changing its settings too. You'll probably 'use' this by accident at least once.<br/><br/>Computer Monitor: Adds a visual look. Cosmetic-only cover.<br/><br/>Lens: Cosmetic-only cover.<br/><br/>You can also use AE2 facades as cosmetic covers."
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAADBw==",
+      "data": "These are the first parts you will need for your beloved nano armor.<br/><br/>[note]To actually complete the nano armor you will need EV circuits and nano crystals (see Storing and Transforming EU).[/note]"
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAADCw==",
+      "data": "You can stop worrying about some mobs for now. This will help you survive a bit and will give you some of that SWAG. Your journey doesn't stop here traveller, as quantum armor awaits you!<br/><br/>[note]PS: The nano suit also acts as hazmat gear.[/note]"
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAAFSA==",
+      "data": "This special pair of goggles recharges itself while you wander in sunlight. How convenient."
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAAFRg==",
+      "data": "The #1 product for spies and wanna-be-spies. Nano-Goggles. Don't you want one of these too? But they are sold out? Craft some!"
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAADCA==",
+      "data": "The nano helmet is a bit special. It will provide you with night vision as long as you have energy!<br/><br/>[note]If you got these from a lootbag, hold these in your hand after completing the \"Carbon Parts\" quest to skip this quest.[/note]"
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAAIQA==",
+      "data": "Now that you are MV, you can make an Adventure Backpack. This very useful backpack can do many things. It can store 2 tools for quick access, has internal tanks for containing liquids - use the Hose to access them, a built in crafting table, and storage.<br/><br/>When placed on your back, it can be accessed using a quick-access key, default is B. Check your controls for details.<br/><br/>When placed on the ground, it can be accessed with a right-click. While on the ground, the bedroll can be deployed and used.<br/><br/>They can also be upgraded to add special abilities. For a full list, visit [url]https://wiki.gtnewhorizons.com/wiki/Adventure_Backpacks[/url].<br/><br/>[note]It uses up the same slot as the Coal Jetpack and the Copterpack, so you'll either need to choose one, or swap them around.[/note]"
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAAAew==",
+      "data": "You probably have a ton of items floating around in your base. So why not use them to kill your enemies?"
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAALzg==",
+      "data": "Very similar to the LCE in most aspects, the Extreme Combustion Engine was created to close the gap between the diesels and more advanced forms of powergen, mainly nuclear fusion. However, the main thing they differ on is the fuel that they can run, and in this case you're limited to the powerful fuel from the last tier, High Octane Gasoline.<br/><br/>That's right, only this fuel will work, and in exchange the ECE will output more than 10k EU/t. If you add Liquid Oxygen, which you'll need 4 Vacuum Freezers for (3 at HV and 1 at EV), you can keep it boosted permanently, which will send it up to 4 IV amps of power and 150% fuel efficiency. It's in your best interest to keep this thing going if you want to keep using Oil fuels for power, and the only thing you can rely on is your automated HOG setup, which you might have to, and should improve with the new IV multis as soon as you can, unless you have other sources of power working simultaneously.<br/><br/>As a last note, there is also an IV equivalent of the Vacuum Freezer, if you want to tackle the Liquid Oxygen needs that way. It's more power efficient, look it up on the GT++ tab."
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAALug==",
+      "data": "Another HV multi, and another Stainless Steel sink. Not only that, but it needs 16 coils to work! There is a quest about this multi in the Multiblock Goals tab, as per usual.<br/><br/>Despite being expensive, this is an important multiblock to build. It does the cracking recipes like the Chemical Reactor does, and you might even be tempted to make an LCR for this purpose, since it's cheap and can do many recipes at once, but the Oil Cracker is much more efficient and gives several bonuses when used (check the tooltip for more information). As it stands, it's a higher initial investment that will pay off in the long run, many times over, and in this pack everything takes a long time, so get on it!"
+    },
+    {
+      "quest_id": "AAAAAAAAAAAAAAAAAAALxg==",
+      "data": "At this point, you have almost all the additives needed to transform basic gasoline into the powerful HOG. What you'll need to do next is to create the gasoline itself, and this begins with Raw Gasoline. It has four different inputs, and each of them is sourced in a different way, but none of them are new: Naphtha and Refinery gas are well-known to you, Methanol was created in the previous quest and Acetone was explained in the \"Acetone and Ethenone\" quest in HV.<br/><br/>An important detail here is that Raw Gasoline is 80% Naphtha. It can be obtained in large quantities from raw oil. If you are not pumping raw oil, you will most likely find the amount you get to be short. But this problem has already been solved! Your source of Octane, if processed in a DT as explained, will also crack the Light Fuel into a lot of Naphtha that you can use here to compensate for the low amount you get from Oil. If you get low on Light Fuel, you can also crack Heavy Fuel to get some."
+    }
+  ]
+}
