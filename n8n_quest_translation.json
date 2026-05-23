@@ -8,11 +8,14 @@
         "responseMode": "responseNode",
         "options": {}
       },
-      "id": "78710856-7a22-4a5a-b7ca-ac3468264ac6",
+      "id": "61946ad2-dce7-41e8-a2f8-359b9a57ed0d",
       "name": "Receive data.json",
       "type": "n8n-nodes-base.webhook",
       "typeVersion": 2,
-      "position": [96, -272],
+      "position": [
+        -656,
+        1120
+      ],
       "webhookId": "gtnh-translate-webhook"
     },
     {
@@ -21,11 +24,14 @@
         "binaryPropertyName": "=file",
         "options": {}
       },
-      "id": "7832fcea-3fb6-4be1-865a-b23b8af28f20",
+      "id": "4db82da7-5874-4afa-9499-b007bbfd10db",
       "name": "Read JSON file",
       "type": "n8n-nodes-base.extractFromFile",
       "typeVersion": 1,
-      "position": [336, -272]
+      "position": [
+        -416,
+        1120
+      ]
     },
     {
       "parameters": {
@@ -34,8 +40,11 @@
       },
       "type": "n8n-nodes-base.splitOut",
       "typeVersion": 1,
-      "position": [560, -272],
-      "id": "bd15dad4-4bfd-42b7-845e-15419574eff1",
+      "position": [
+        -192,
+        1120
+      ],
+      "id": "6dab625f-559e-4d0a-b521-d6d3660cadac",
       "name": "Split Out"
     },
     {
@@ -45,78 +54,72 @@
       },
       "type": "n8n-nodes-base.splitInBatches",
       "typeVersion": 3,
-      "position": [800, -272],
-      "id": "26e1eaac-4605-49e0-8f79-d97ca88bdec0",
+      "position": [
+        64,
+        1120
+      ],
+      "id": "8db7ebbb-0748-419a-82e9-833e65aa890c",
       "name": "Loop Over Items"
     },
     {
       "parameters": {
-        "jsCode": "const sd = $getWorkflowStaticData('global');\n\nconst SYSTEM = `Tu es un traducteur expert pour le jeu Minecraft. Traduis en français les textes du tableau JSON fourni.\nChaque élément du tableau est une description de quête. Retourne UNIQUEMENT un tableau JSON avec le même nombre d'éléments, dans le même ordre, traduits en français.\n\nRègles strictes :\n- Conserve intégralement les balises § suivies d'un caractère (§0-9, §a-f, §l, §r, §o, §n, §m, §k)\n- Conserve les balises HTML : <br/>, <br>, et les balises <a href=\"...\">\n- Conserve les balises [url]...[/url]\n- Ne traduis pas les noms d'items Minecraft (ex: Diamond Pickaxe, Iron Ingot, Cobblestone)\n- Ne traduis pas les noms de mods (ex: Thaumcraft, IndustrialCraft, Applied Energistics)\n- Ne traduis pas les noms de biomes ou dimensions (ex: The Nether, The End)\n- Réponds UNIQUEMENT avec le tableau JSON traduit, même nombre d'entrées, même ordre, sans markdown, sans commentaire`;\n\nconst questIds = [];\nconst texts = [];\nfor (const item of $input.all()) {\n  questIds.push(item.json.quest_id);\n  texts.push(item.json.data);\n}\n\n// Stocker l'ordre des quest_id pour le mapping dans Accumulate\nsd.pendingQuestIds = questIds;\n\nreturn [{\n  json: {\n    systemPrompt: SYSTEM,\n    prompt: JSON.stringify(texts)\n  }\n}];"
+        "jsCode": "const sd = $getWorkflowStaticData('global');\n\nconst SYSTEM = `Tu es un traducteur expert pour le jeu Minecraft. Traduis en français les textes du dictionnaire JSON fourni.\nChaque clé est un identifiant de quête, la valeur est le texte à traduire. Retourne UNIQUEMENT un dictionnaire JSON avec les mêmes clés et les valeurs traduites en français.\n\nRègles strictes :\n- Conserve les balises § suivies d'un caractère (§0-9, §a-f, §l, §r, §o, §n, §m, §k)\n- Conserve les balises HTML : <br/>, <br>, <a href=\"...\">\n- Conserve [url]...[/url], [warn]...[/warn], [note]...[/note]\n- Ne traduis pas les noms d'items Minecraft, mods, biomes ou dimensions\n- Réponds UNIQUEMENT avec le dictionnaire JSON traduit, sans markdown, sans commentaire`;\n\nconst batch = {};\nfor (const item of $input.all()) {\n  const j = item.json;\n  if (j.quest_id !== undefined) {\n    // Format individuel : {quest_id, data}\n    batch[j.quest_id] = j.data;\n  } else {\n    // Format clés numériques : {\"0\": {quest_id, data}, \"1\": {...}, ...}\n    for (const key of Object.keys(j)) {\n      const q = j[key];\n      if (q && typeof q === 'object' && q.quest_id !== undefined) {\n        batch[q.quest_id] = q.data;\n      }\n    }\n  }\n}\n\nreturn [{ json: { systemPrompt: SYSTEM, prompt: JSON.stringify(batch) } }];\n"
       },
-      "id": "af8822b1-f5d7-405c-969d-e06472a7fc44",
+      "id": "e4dfb2f2-7f7a-4f32-a03e-a5b6ff5cba0b",
       "name": "Split into chunks",
       "type": "n8n-nodes-base.code",
       "typeVersion": 2,
-      "position": [1136, -64]
+      "position": [
+        400,
+        1328
+      ]
     },
     {
       "parameters": {
-        "method": "POST",
-        "url": "http://localhost:11434/api/chat",
-        "sendHeaders": false,
-        "sendBody": true,
-        "contentType": "json",
-        "specifyBody": "json",
-        "jsonBody": "={{ { model: 'qwen-fr', messages: [{ role: 'system', content: $json.systemPrompt }, { role: 'user', content: $json.prompt }], stream: false, options: { num_ctx: 8192 } } }}",
-        "options": {
-          "timeout": 600000
-        }
+        "jsCode": "const sd = $getWorkflowStaticData('global');\nif (!sd.translations) sd.translations = {};\n\n// Format Gemini: [{ candidates: [{ content: { parts: [{ text: '{\"id\":\"trad\",...}' }] } }] }]\nconst text = $input.first().json?.candidates?.[0]?.content?.parts?.[0]?.text ?? '';\n\nconst cleaned = text\n  .replace(/^```json\\s*/m, '')\n  .replace(/^```\\s*/m, '')\n  .replace(/\\s*```$/m, '')\n  .trim();\n\ntry {\n  const parsed = JSON.parse(cleaned);\n  if (typeof parsed === 'object' && !Array.isArray(parsed)) {\n    Object.assign(sd.translations, parsed);\n    console.log(`Accumulé : ${Object.keys(parsed).length} — total : ${Object.keys(sd.translations).length}`);\n  } else {\n    console.error('Réponse non-objet:', typeof parsed, cleaned.substring(0, 200));\n  }\n} catch(e) {\n  console.error('Erreur parsing:', e.message, cleaned.substring(0, 300));\n}\n\nreturn $input.all();\n"
       },
-      "id": "ca116688-248a-4452-9af7-dace31e2b8c4",
-      "name": "Ollama translate",
-      "type": "n8n-nodes-base.httpRequest",
-      "typeVersion": 4.2,
-      "position": [1824, 0]
-    },
-    {
-      "parameters": {
-        "jsCode": "const sd = $getWorkflowStaticData('global');\nif (!sd.translations) sd.translations = {};\n\nconst questIds = sd.pendingQuestIds || [];\nconst text = $input.first().json.message?.content ?? '';\n\nconst cleaned = text\n  .replace(/^```json\\s*/m, '')\n  .replace(/^```\\s*/m, '')\n  .replace(/\\s*```$/m, '')\n  .trim();\n\ntry {\n  const parsed = JSON.parse(cleaned);\n  if (Array.isArray(parsed)) {\n    if (parsed.length !== questIds.length) {\n      console.warn(`⚠️ Longueur différente : ${questIds.length} attendus, ${parsed.length} reçus`);\n    }\n    parsed.forEach((translation, i) => {\n      if (questIds[i] !== undefined) {\n        sd.translations[questIds[i]] = translation;\n      }\n    });\n    console.log(`Accumulé : ${parsed.length} — total : ${Object.keys(sd.translations).length}`);\n  } else {\n    console.error('Réponse non-tableau:', typeof parsed);\n    console.error('Reçu:', cleaned.substring(0, 200));\n  }\n} catch(e) {\n  console.error('Erreur parsing:', e.message);\n  console.error('Début reçu:', cleaned.substring(0, 300));\n}\n\nreturn $input.all();"
-      },
-      "id": "e1a2b3c4-d5e6-7890-abcd-ef1234567890",
+      "id": "776145a9-f089-45ca-8e33-9692f64574ff",
       "name": "Accumulate",
       "type": "n8n-nodes-base.code",
       "typeVersion": 2,
-      "position": [2080, 0]
+      "position": [
+        1344,
+        1392
+      ]
     },
     {
       "parameters": {
         "jsCode": "const sd = $getWorkflowStaticData('global');\nconst all = sd.translations ?? {};\nsd.translations = {};\n\nconsole.log(`Total traduit : ${Object.keys(all).length} quêtes`);\nreturn [{ json: all }];"
       },
-      "id": "f2b3c4d5-e6f7-8901-bcde-f12345678901",
+      "id": "96d245d0-e80c-4b1f-8f91-16d43a88a6e2",
       "name": "Collect all",
       "type": "n8n-nodes-base.code",
       "typeVersion": 2,
-      "position": [1050, -500]
+      "position": [
+        304,
+        880
+      ]
     },
     {
       "parameters": {
         "operation": "toJson",
-        "binaryPropertyName": "data",
         "options": {
           "fileName": "data_translate.json"
         }
       },
-      "id": "60f8c3d8-0d2e-4ca2-bf05-da9a1a162fa1",
+      "id": "3f6684ac-b222-40d7-bcf1-a1b04d4ccb67",
       "name": "Convert to file",
       "type": "n8n-nodes-base.convertToFile",
       "typeVersion": 1.1,
-      "position": [1296, -500]
+      "position": [
+        560,
+        880
+      ]
     },
     {
       "parameters": {
         "respondWith": "binary",
         "options": {
-          "binaryProperty": "data",
           "responseHeaders": {
             "entries": [
               {
@@ -131,59 +134,163 @@
           }
         }
       },
-      "id": "2bf37269-5a05-42fc-9f41-7b03d45feb8b",
+      "id": "5d351a35-bbac-4f1f-be4b-079d32bfa932",
       "name": "Return translated file",
       "type": "n8n-nodes-base.respondToWebhook",
       "typeVersion": 1.1,
-      "position": [1536, -500]
+      "position": [
+        800,
+        880
+      ]
+    },
+    {
+      "parameters": {
+        "modelId": {
+          "__rl": true,
+          "value": "models/gemini-2.5-flash",
+          "mode": "list",
+          "cachedResultName": "models/gemini-2.5-flash"
+        },
+        "messages": {
+          "values": [
+            {
+              "content": "={{ $json.systemPrompt }}",
+              "role": "model"
+            },
+            {
+              "content": "={{ $json.prompt }}"
+            }
+          ]
+        },
+        "simplify": false,
+        "builtInTools": {},
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.googleGemini",
+      "typeVersion": 1.1,
+      "position": [
+        896,
+        1328
+      ],
+      "id": "705e2153-aa3d-4654-b463-77cd54c32e3b",
+      "name": "Message a model",
+      "retryOnFail": true,
+      "maxTries": 5,
+      "waitBetweenTries": 5000,
+      "credentials": {
+        "googlePalmApi": {
+          "id": "Wm1VsleCqsfJ2Qo2",
+          "name": "Google Gemini(PaLM) Api account"
+        }
+      }
     }
   ],
   "pinData": {},
   "connections": {
     "Receive data.json": {
       "main": [
-        [{ "node": "Read JSON file", "type": "main", "index": 0 }]
+        [
+          {
+            "node": "Read JSON file",
+            "type": "main",
+            "index": 0
+          }
+        ]
       ]
     },
     "Read JSON file": {
       "main": [
-        [{ "node": "Split Out", "type": "main", "index": 0 }]
+        [
+          {
+            "node": "Split Out",
+            "type": "main",
+            "index": 0
+          }
+        ]
       ]
     },
     "Split Out": {
       "main": [
-        [{ "node": "Loop Over Items", "type": "main", "index": 0 }]
+        [
+          {
+            "node": "Loop Over Items",
+            "type": "main",
+            "index": 0
+          }
+        ]
       ]
     },
     "Loop Over Items": {
       "main": [
-        [{ "node": "Collect all", "type": "main", "index": 0 }],
-        [{ "node": "Split into chunks", "type": "main", "index": 0 }]
+        [
+          {
+            "node": "Collect all",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Split into chunks",
+            "type": "main",
+            "index": 0
+          }
+        ]
       ]
     },
     "Split into chunks": {
       "main": [
-        [{ "node": "Ollama translate", "type": "main", "index": 0 }]
-      ]
-    },
-    "Ollama translate": {
-      "main": [
-        [{ "node": "Accumulate", "type": "main", "index": 0 }]
+        [
+          {
+            "node": "Message a model",
+            "type": "main",
+            "index": 0
+          }
+        ]
       ]
     },
     "Accumulate": {
       "main": [
-        [{ "node": "Loop Over Items", "type": "main", "index": 0 }]
+        [
+          {
+            "node": "Loop Over Items",
+            "type": "main",
+            "index": 0
+          }
+        ]
       ]
     },
     "Collect all": {
       "main": [
-        [{ "node": "Convert to file", "type": "main", "index": 0 }]
+        [
+          {
+            "node": "Convert to file",
+            "type": "main",
+            "index": 0
+          }
+        ]
       ]
     },
     "Convert to file": {
       "main": [
-        [{ "node": "Return translated file", "type": "main", "index": 0 }]
+        [
+          {
+            "node": "Return translated file",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Message a model": {
+      "main": [
+        [
+          {
+            "node": "Accumulate",
+            "type": "main",
+            "index": 0
+          }
+        ]
       ]
     }
   },
@@ -192,6 +299,7 @@
     "executionOrder": "v1",
     "binaryMode": "separate"
   },
+  "versionId": "b7ac6187-66d2-42a6-b743-003013e7b760",
   "meta": {
     "templateCredsSetupCompleted": true,
     "instanceId": "423155f0c69ae1b17758dade6a3d94599f3e7349f5ece35cd42db4791c0a9cb4"
